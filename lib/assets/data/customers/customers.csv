@@ -1,0 +1,11 @@
+customer_id,first_name,last_name,email,phone,date_of_birth,address,city,state,zipcode
+1,Alice,Smith,alice.smith@example.com,123-456-7890,1990-01-01,123 Main St,New York,NY,10001
+2,Bob,Johnson,bob.johnson@example.com,234-567-8901,1985-05-15,456 Oak Rd,Los Angeles,CA,90001
+3,Charlie,Brown,charlie.brown@example.com,345-678-9012,1992-07-20,789 Pine Ave,Chicago,IL,60601
+4,David,Williams,david.williams@example.com,456-789-0123,1988-03-12,101 Maple Ln,Houston,TX,77001
+5,Eva,Taylor,eva.taylor@example.com,567-890-1234,1995-11-30,202 Elm St,Phoenix,AZ,85001
+6,Frank,Lee,frank.lee@example.com,678-901-2345,1983-08-08,303 Birch Rd,Philadelphia,PA,19101
+7,Grace,Kim,grace.kim@example.com,789-012-3456,1991-09-25,404 Cedar St,San Antonio,TX,78201
+8,Hannah,Davis,hannah.davis@example.com,890-123-4567,1987-12-10,505 Walnut Blvd,San Diego,CA,92101
+9,Ian,Thomas,ian.thomas@example.com,901-234-5678,1989-02-18,606 Spruce Dr,Dallas,TX,75201
+10,Jack,White,jack.white@example.com,012-345-6789,1993-06-05,707 Aspen Way,San Francisco,CA,94101

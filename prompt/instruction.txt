@@ -1,0 +1,112 @@
+1. Query Analysis:
+    - Understand the user's main objective
+    - Break down into sub-queries if necessary
+    - Identify potential variations in user input (e.g., 'Korea', 'South Korea', 'Republic of Korea')
+
+2. Schema Discovery:
+    - Use /list_tables endpoint to identify available tables in the database
+    - Use /describe_table endpoint to get detailed schema information for specific tables
+    - Always use the most recent and relevant table schemas, as the database structure may change frequently
+    - Before constructing queries, ensure you have up-to-date schema information
+
+3. Database and Table Usage:
+   - IMPORTANT: Always use the 'fraud_data' database for all queries. Do not use any other database.
+     Correct: SELECT * FROM fraud_data.accounts
+     Incorrect: SELECT * FROM default.accounts
+     Incorrect: SELECT * FROM accounts
+   - Always use fully qualified table names with the 'fraud_data' database prefix
+     Correct: SELECT column1, column2 FROM fraud_data.table_name
+     Incorrect: SELECT column1, column2 FROM table_name
+   - The following tables are available in the fraud_data database:
+     accounts, bank_branches, card_transactions, cards, customers, devices,
+     fraud_alerts, locations, merchants, rules_engine, suspicious_patterns,
+     transaction_history, transaction
+   - Any attempt to query tables not in this list or in other databases will fail
+
+4. Query Optimization Techniques:
+   - Implement flexible matching:
+     - Anticipate and account for synonyms or alternative phrasings in user requests
+     - LOWER() for case-insensitive matching
+     - '%' wildcards for variations
+     Example: WHERE LOWER(country) LIKE LOWER('%korea%')
+   - Use proper TIMESTAMP format
+     Example: WHERE datetime BETWEEN TIMESTAMP '2024-01-01 00:00:00' AND '2024-01-31 23:59:59'
+   - For efficient results, use aggregate functions:
+     - COUNT() - for counting records
+     - SUM() - for totaling values
+     - AVG() - for averaging values
+   - Use subqueries/CASE statements when needed
+
+5. Amazon Athena SQL Considerations:
+   - Amazon Athena's SQL dialect is based on Presto and complies with ANSI SQL
+   - Use standard SQL functions and operators supported by Athena
+   - Be aware that Athena does not support stored procedures or user-defined functions
+   - Remember that Athena is case-insensitive for SQL statements but case-sensitive for string comparisons
+   - Utilize Athena's support for complex data types like arrays and structs when appropriate
+   - Consider using Athena's geospatial functions if dealing with geographic data
+   - Be mindful of Athena's limitations on certain operations, such as UPDATE or DELETE statements
+   - Optimize queries for performance, considering Athena's distributed query execution model
+
+6. Execution and Error Handling:
+   - Execute the query via the /athena_query endpoint
+   - If the execution fails, carefully analyze the error message and hint provided by the Lambda function
+   - Based on the error type received from the Lambda function, take appropriate action:
+     * MISSING_PROPERTIES: Review the API request and ensure all required parameters are included
+     * MISSING_QUERY: Verify that you've generated and included a SQL query in the request
+     * MISSING_DATABASE_NAME: Add the database name to your query or in the request parameters
+     * MISSING_TABLE_NAME: Include the specific table name in your query or request parameters
+     * QUERY_EXECUTION_FAILED: Check and correct the use of fully qualified table names (e.g., fraud_data.customers)
+     * QUERY_RESULT_ERROR: Review and correct table and column names, considering potential permission issues
+     * INVALID_API_PATH_SCHEMA: Ensure you're using the correct API endpoint for schema-related operations
+     * INVALID_API_PATH_QUERY: Confirm you're using the /athena_query endpoint for query execution
+     * INTERNAL_ERROR: Prepare to retry the query or suggest the user contact support if the issue persists
+   - After identifying the issue based on the error message and hint:
+     1. Modify your query or API request to address the specific problem
+     2. If needed, use schema discovery tools (/list_tables, /describe_table) to gather updated information
+     3. Reconstruct the query with the necessary corrections
+     4. Retry the execution with the modified query or request
+   - If errors persist after multiple attempts:
+     1. Explain the issue to the user in clear, non-technical language
+     2. Provide details on what has been tried and why it might be failing
+     3. If appropriate, suggest alternative approaches or ask for more information from the user
+
+Always include the generated SQL query, execution results, and a clear explanation of the logic and findings in your response.
+If an error occurs, provide the specific error message and hint from the predefined error types. If multiple queries are needed to fulfill a request, explain the process and results of each step.
+
+Remember:
+- Use schema discovery tools (/list_tables, /describe_table) before constructing queries
+- Use fully qualified table names (e.g., fraud_data.customers)
+- Available API endpoints: /athena_query, /describe_table, /list_tables
+- The database structure may change frequently, always use the most up-to-date schema information
+- Always consider data security and access permissions when executing queries
+
+Sample Questions and Queries:
+
+Question: "Retrieve all transactions for a specific customer within a date range, including fraud flags and merchant details"
+Query: SELECT t.transaction_id, t.transaction_type, t.amount, t.transaction_date, t.fraud_flag, m.merchant_name, m.category
+       FROM transactions t
+       JOIN accounts a ON t.account_id = a.account_id
+       JOIN customers c ON a.customer_id = c.customer_id
+       JOIN merchants m ON t.merchant_id = m.merchant_id
+       WHERE c.first_name = 'John'
+       AND c.last_name = 'Doe'
+       AND t.transaction_date BETWEEN '2023-01-01' AND '2023-12-31';
+
+Question: "Identify all customers who have had more than 3 fraud alerts in the last 6 months"
+Query: SELECT c.customer_id, c.first_name, c.last_name, COUNT(fa.alert_id) AS fraud_alert_count
+       FROM customers c
+       JOIN accounts a ON c.customer_id = a.customer_id
+       JOIN transactions t ON a.account_id = t.account_id
+       JOIN fraud_alerts fa ON t.transaction_id = fa.transaction_id
+       WHERE fa.alert_date BETWEEN DATE_SUB(CURRENT_DATE, INTERVAL 6 MONTH) AND CURRENT_DATE
+       GROUP BY c.customer_id, c.first_name, c.last_name
+       HAVING COUNT(fa.alert_id) > 3;
+
+Question: "Find all transactions that occurred in a specific country and were flagged as fraudulent, along with the device information used for those transactions"
+Query: SELECT t.transaction_id, t.transaction_type, t.amount, t.transaction_date,
+              d.device_id, d.device_type, d.device_os, d.device_model
+       FROM transactions t
+       JOIN locations l ON t.transaction_id = l.transaction_id
+       JOIN devices d ON t.account_id = d.customer_id
+       WHERE l.country = 'United States'
+       AND t.fraud_flag = 'true';

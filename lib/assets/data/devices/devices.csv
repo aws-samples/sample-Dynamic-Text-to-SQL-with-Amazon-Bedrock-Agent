@@ -1,0 +1,11 @@
+device_id,customer_id,device_type,device_os,device_model,last_login_date,is_blacklisted,fraud_score
+1,1,Smartphone,iOS,iPhone 13,2024-12-15,false,0.02
+2,2,Laptop,Windows,Dell XPS 15,2024-12-14,false,0.01
+3,3,Tablet,Android,Samsung Tab S7,2024-12-13,true,0.85
+4,4,Smartphone,Android,Samsung S21,2024-12-15,false,0.03
+5,5,Laptop,macOS,MacBook Pro,2024-12-14,false,0.01
+6,6,Smartphone,iOS,iPhone 12,2024-12-15,false,0.02
+7,7,Tablet,iPadOS,iPad Pro,2024-12-14,false,0.01
+8,8,Laptop,Windows,HP Spectre,2024-12-13,false,0.04
+9,9,Smartphone,Android,Google Pixel 6,2024-12-15,false,0.02
+10,10,Desktop,Windows,Custom Build,2024-12-14,false,0.01

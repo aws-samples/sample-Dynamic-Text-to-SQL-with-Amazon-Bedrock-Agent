@@ -1,0 +1,251 @@
+transaction_id,account_id,transaction_type,amount,transaction_date,merchant_id,city,state,currency,transaction_status,fraud_flag,flagged_by,fraud_reason11,8,Purchase,11.86,2024-10-19,6,Phoenix, AZ,USD,Completed,false,,
+2,6,Withdrawal,11.79,2024-10-26,6,Houston, TX,USD,Completed,false,,
+1,1,Withdrawal,10.50,2024-12-10,2,Los Angeles, CA,USD,Completed,true,System,Exceeds daily limit
+4,4,Withdrawal,11.39,2024-10-08,4,Houston, TX,USD,Completed,false,,
+5,3,Withdrawal,12.96,2024-11-05,8,Philadelphia, PA,USD,Completed,false,,
+6,3,Purchase,10.95,2024-10-14,9,Dallas, TX,USD,Completed,false,,
+7,1,Withdrawal,11.91,2024-12-28,8,Philadelphia, PA,USD,Completed,false,,
+8,5,Purchase,13.11,2024-12-08,1,New York, NY,USD,Completed,false,,
+10,6,Purchase,12.47,2024-11-16,9,San Diego, CA,USD,Completed,false,,
+3,10,Withdrawal,13.16,2024-11-02,6,San Antonio, TX,USD,Completed,false,,
+9,3,Withdrawal,12.33,2024-12-12,3,Los Angeles, CA,USD,Completed,true,System,Multiple password attempts
+20,3,Withdrawal,10.57,2024-12-23,3,Houston, TX,USD,Completed,true,System,Unusual location
+12,6,Withdrawal,11.79,2024-10-26,6,Houston, TX,USD,Completed,false,,
+13,1,Withdrawal,10.50,2024-12-10,2,Los Angeles, CA,USD,Completed,true,System,Exceeds daily limit
+14,4,Withdrawal,11.39,2024-10-08,4,Houston, TX,USD,Completed,false,,
+15,3,Withdrawal,12.96,2024-11-05,8,Philadelphia, PA,USD,Completed,false,,
+16,3,Purchase,10.95,2024-10-14,9,Dallas, TX,USD,Completed,false,,
+17,1,Withdrawal,11.91,2024-12-28,8,Philadelphia, PA,USD,Completed,false,,
+18,5,Purchase,13.11,2024-12-08,1,New York, NY,USD,Completed,false,,
+19,3,Withdrawal,12.33,2024-12-12,3,Los Angeles, CA,USD,Completed,true,System,Multiple password attempts
+20,3,Withdrawal,10.57,2024-12-23,3,Houston, TX,USD,Completed,true,System,Unusual location
+21,10,Withdrawal,13.10,2024-11-16,5,Philadelphia, PA,USD,Completed,false,,
+22,9,Withdrawal,11.54,2024-12-09,3,Los Angeles, CA,USD,Completed,true,System,Multiple password attempts
+23,10,Withdrawal,13.16,2024-11-02,6,San Antonio, TX,USD,Completed,false,,
+24,2,Purchase,10.76,2024-11-08,5,Phoenix, AZ,USD,Completed,false,,
+25,6,Purchase,10.42,2024-10-28,3,Chicago, IL,USD,Completed,true,System,Unusual location
+26,1,Purchase,12.22,2024-11-13,7,Phoenix, AZ,USD,Completed,false,,
+27,10,Purchase,10.81,2024-12-02,1,New York, NY,USD,Completed,false,,
+28,1,Purchase,12.39,2024-10-07,9,San Antonio, TX,USD,Completed,false,,
+29,4,Purchase,11.48,2024-10-14,3,Houston, TX,USD,Completed,false,,
+30,6,Purchase,12.47,2024-11-16,9,San Diego, CA,USD,Completed,false,,
+31,7,Purchase,11.73,2024-12-28,2,New York, NY,USD,Completed,true,System,Large transaction
+32,6,Withdrawal,11.81,2024-10-24,6,Houston, TX,USD,Completed,false,,
+33,6,Purchase,12.74,2024-10-15,6,Phoenix, AZ,USD,Completed,false,,
+34,2,Withdrawal,11.69,2024-12-12,10,San Diego, CA,USD,Completed,false,,
+35,10,Withdrawal,11.35,2024-12-24,3,Houston, TX,USD,Completed,true,System,Unusual location
+36,3,Withdrawal,10.86,2024-10-10,9,San Francisco, CA,USD,Completed,false,,
+37,4,Withdrawal,10.59,2024-11-03,10,San Francisco, CA,USD,Completed,false,,
+38,2,Withdrawal,12.84,2024-10-26,6,Houston, TX,USD,Completed,false,,
+39,3,Purchase,12.70,2024-12-27,5,Chicago, IL,USD,Completed,false,,
+40,7,Purchase,10.71,2024-12-24,3,Houston, TX,USD,Completed,true,System,Unusual location
+41,3,Withdrawal,12.34,2024-11-23,2,San Francisco, CA,USD,Completed,true,System,Large transaction
+42,7,Purchase,11.13,2024-11-02,1,New York, NY,USD,Completed,false,,
+43,5,Purchase,12.52,2024-12-24,9,San Antonio, TX,USD,Completed,false,,
+44,6,Purchase,10,2024-11-06,9,Dallas, TX,USD,Completed,false,,
+45,3,Withdrawal,10.61,2024-10-12,6,Philadelphia, PA,USD,Completed,false,,
+46,7,Purchase,11.53,2024-11-18,2,Los Angeles, CA,USD,Completed,false,,
+47,8,Purchase,11.74,2024-10-24,10,Dallas, TX,USD,Completed,false,,
+48,2,Withdrawal,10.26,2024-11-12,4,Houston, TX,USD,Completed,false,,
+49,3,Purchase,12.40,2024-10-25,1,San Francisco, CA,USD,Completed,false,,
+50,5,Purchase,10.36,2024-10-02,9,Dallas, TX,USD,Completed,false,,
+51,10,Purchase,10.56,2024-10-23,7,San Antonio, TX,USD,Completed,false,,
+52,4,Withdrawal,13.02,2024-10-25,8,Philadelphia, PA,USD,Completed,false,,
+53,1,Purchase,10.82,2024-10-27,3,Chicago, IL,USD,Completed,true,System,Unusual location
+54,2,Withdrawal,13.27,2024-11-11,7,San Diego, CA,USD,Completed,false,,
+55,3,Withdrawal,12.32,2024-11-15,8,Philadelphia, PA,USD,Completed,false,,
+56,9,Purchase,12.69,2024-10-03,3,New York, NY,USD,Completed,true,System,Multiple password attempts
+57,9,Purchase,12.37,2024-11-21,7,Phoenix, AZ,USD,Completed,false,,
+58,10,Purchase,10.63,2024-11-17,5,Philadelphia, PA,USD,Completed,false,,
+59,6,Purchase,11.92,2024-12-17,4,Chicago, IL,USD,Completed,false,,
+60,10,Withdrawal,11.04,2024-12-08,6,Philadelphia, PA,USD,Completed,false,,
+61,9,Purchase,11.71,2024-10-03,8,San Antonio, TX,USD,Completed,false,,
+62,5,Purchase,12.48,2024-11-03,3,New York, NY,USD,Completed,true,System,Multiple password attempts
+63,7,Withdrawal,12.32,2024-12-18,10,San Diego, CA,USD,Completed,false,,
+64,1,Withdrawal,10.16,2024-12-20,2,Los Angeles, CA,USD,Completed,true,System,Exceeds daily limit
+65,10,Purchase,10.45,2024-10-10,1,Los Angeles, CA,USD,Completed,false,,
+66,6,Withdrawal,12.60,2024-10-06,10,Dallas, TX,USD,Completed,false,,
+67,10,Withdrawal,11.40,2024-11-13,4,Houston, TX,USD,Completed,false,,
+68,1,Purchase,11.88,2024-11-18,7,Phoenix, AZ,USD,Completed,false,,
+69,7,Withdrawal,11.22,2024-10-26,6,Philadelphia, PA,USD,Completed,false,,
+70,4,Withdrawal,11.40,2024-10-22,10,San Francisco, CA,USD,Completed,false,,
+71,5,Purchase,10.63,2024-12-05,3,Chicago, IL,USD,Completed,true,System,Unusual location
+72,3,Withdrawal,11.57,2024-12-09,2,San Francisco, CA,USD,Completed,false,,
+73,7,Purchase,12.25,2024-11-24,2,New York, NY,USD,Completed,true,System,Large transaction
+74,5,Purchase,11.31,2024-10-07,1,New York, NY,USD,Completed,false,,
+75,10,Purchase,11.55,2024-10-27,1,Dallas, TX,USD,Completed,false,,
+76,5,Withdrawal,13.20,2024-12-22,2,Los Angeles, CA,USD,Completed,true,System,Exceeds daily limit
+77,2,Purchase,11.00,2024-11-07,5,Phoenix, AZ,USD,Completed,false,,
+78,4,Purchase,12.75,2024-10-05,6,Phoenix, AZ,USD,Completed,false,,
+79,10,Withdrawal,11.05,2024-11-22,6,Houston, TX,USD,Completed,false,,
+80,5,Withdrawal,12.26,2024-12-28,6,Houston, TX,USD,Completed,false,,
+81,2,Withdrawal,11.29,2024-11-22,9,San Francisco, CA,USD,Completed,false,,
+82,3,Withdrawal,10.18,2024-10-21,6,Philadelphia, PA,USD,Completed,false,,
+83,5,Purchase,10.29,2024-11-11,7,San Antonio, TX,USD,Completed,false,,
+84,1,Purchase,12.68,2024-10-10,2,New York, NY,USD,Completed,true,System,Large transaction
+85,1,Purchase,10.22,2024-10-08,9,San Antonio, TX,USD,Completed,false,,
+86,5,Withdrawal,12.29,2024-12-27,6,Houston, TX,USD,Completed,false,,
+87,8,Withdrawal,10.04,2024-12-28,6,Philadelphia, PA,USD,Completed,false,,
+88,6,Withdrawal,10.36,2024-11-11,2,Los Angeles, CA,USD,Completed,true,System,Exceeds daily limit
+89,8,Purchase,12.91,2024-10-21,2,New York, NY,USD,Completed,true,System,Large transaction
+90,5,Withdrawal,10.07,2024-12-14,9,San Francisco, CA,USD,Completed,false,,
+91,9,Withdrawal,11.17,2024-10-05,8,San Diego, CA,USD,Completed,false,,
+92,2,Withdrawal,13.01,2024-10-06,8,Philadelphia, PA,USD,Completed,false,,
+93,8,Withdrawal,11.11,2024-11-04,10,San Francisco, CA,USD,Completed,false,,
+94,7,Withdrawal,10.64,2024-12-03,8,San Diego, CA,USD,Completed,false,,
+95,10,Purchase,12.77,2024-11-04,5,Houston, TX,USD,Completed,false,,
+96,3,Withdrawal,11.77,2024-11-22,2,San Francisco, CA,USD,Completed,true,System,Large transaction
+97,5,Purchase,12.36,2024-12-18,7,Phoenix, AZ,USD,Completed,false,,
+98,9,Withdrawal,12.31,2024-12-03,6,Houston, TX,USD,Completed,false,,
+99,3,Purchase,13.04,2024-12-06,1,Dallas, TX,USD,Completed,false,,
+100,3,Purchase,11.25,2024-11-11,3,Chicago, IL,USD,Completed,true,System,Unusual location
+101,2,Purchase,10.18,2024-10-19,1,New York, NY,USD,Completed,false,,
+102,7,Withdrawal,10,2024-12-17,8,San Diego, CA,USD,Completed,false,,
+103,10,Withdrawal,12.35,2024-10-18,4,Los Angeles, CA,USD,Completed,true,System,Exceeds daily limit
+104,10,Withdrawal,13.02,2024-12-13,10,Dallas, TX,USD,Completed,false,,
+105,4,Purchase,11.76,2024-10-22,2,New York, NY,USD,Completed,true,System,Large transaction
+106,1,Purchase,12.56,2024-11-27,10,Dallas, TX,USD,Completed,false,,
+107,6,Withdrawal,12.03,2024-10-12,10,San Diego, CA,USD,Completed,false,,
+108,3,Purchase,11.85,2024-10-04,1,Dallas, TX,USD,Completed,false,,
+109,9,Withdrawal,12.74,2024-10-28,10,Dallas, TX,USD,Completed,false,,
+110,6,Withdrawal,11.79,2024-11-02,4,Los Angeles, CA,USD,Completed,true,System,Exceeds daily limit
+111,5,Purchase,11.23,2024-10-12,1,New York, NY,USD,Completed,false,,
+112,8,Withdrawal,13.18,2024-10-16,4,Houston, TX,USD,Completed,false,,
+113,7,Purchase,11.76,2024-12-24,1,Dallas, TX,USD,Completed,false,,
+114,9,Purchase,12.31,2024-12-07,2,New York, NY,USD,Completed,true,System,Large transaction
+115,8,Purchase,11.32,2024-12-18,9,San Francisco, CA,USD,Completed,false,,
+116,2,Withdrawal,13.13,2024-11-12,2,Chicago, IL,USD,Completed,true,System,Exceeds daily limit
+117,10,Purchase,12.12,2024-11-21,8,San Antonio, TX,USD,Completed,false,,
+118,3,Withdrawal,12.59,2024-10-18,10,San Diego, CA,USD,Completed,false,,
+119,10,Purchase,12.57,2024-12-21,7,Phoenix, AZ,USD,Completed,false,,
+120,4,Purchase,11.08,2024-10-17,9,Dallas, TX,USD,Completed,false,,
+121,3,Withdrawal,11.22,2024-10-19,10,San Francisco, CA,USD,Completed,false,,
+122,10,Withdrawal,10.31,2024-12-13,4,Los Angeles, CA,USD,Completed,true,System,Exceeds daily limit
+123,8,Purchase,12.18,2024-11-02,4,Chicago, IL,USD,Completed,false,,
+124,6,Withdrawal,12.79,2024-11-15,6,Houston, TX,USD,Completed,false,,
+125,5,Purchase,12.69,2024-10-11,5,Houston, TX,USD,Completed,false,,
+126,9,Withdrawal,12.41,2024-10-01,6,Houston, TX,USD,Completed,false,,
+127,5,Withdrawal,11.66,2024-12-28,8,Philadelphia, PA,USD,Completed,false,,
+128,2,Withdrawal,11.42,2024-10-20,4,Houston, TX,USD,Completed,false,,
+129,7,Purchase,13.00,2024-10-06,3,Los Angeles, CA,USD,Completed,true,System,Unusual location
+130,2,Purchase,12.03,2024-12-21,7,Phoenix, AZ,USD,Completed,false,,
+131,1,Withdrawal,10.27,2024-12-19,2,Los Angeles, CA,USD,Completed,true,System,Exceeds daily limit
+132,3,Withdrawal,11.96,2024-12-22,8,Philadelphia, PA,USD,Completed,false,,
+133,4,Withdrawal,10.34,2024-12-11,3,Houston, TX,USD,Completed,true,System,Unusual location
+134,7,Purchase,11.65,2024-11-11,1,Dallas, TX,USD,Completed,false,,
+135,1,Withdrawal,12.73,2024-11-11,5,Houston, TX,USD,Completed,false,,
+136,1,Withdrawal,11.19,2024-11-22,10,San Francisco, CA,USD,Completed,false,,
+137,3,Purchase,12.99,2024-11-18,3,New York, NY,USD,Completed,true,System,Multiple password attempts
+138,1,Purchase,13.03,2024-10-10,5,Chicago, IL,USD,Completed,false,,
+139,10,Purchase,10.36,2024-11-09,9,Dallas, TX,USD,Completed,false,,
+140,9,Purchase,13.09,2024-12-21,7,Phoenix, AZ,USD,Completed,false,,
+141,5,Purchase,12.99,2024-10-18,5,Houston, TX,USD,Completed,false,,
+142,8,Purchase,10.10,2024-10-20,1,New York, NY,USD,Completed,false,,
+143,1,Withdrawal,12.47,2024-12-09,8,Philadelphia, PA,USD,Completed,false,,
+144,3,Purchase,13.07,2024-10-17,1,Dallas, TX,USD,Completed,false,,
+145,1,Withdrawal,12.99,2024-10-19,6,Houston, TX,USD,Completed,false,,
+146,4,Purchase,12.93,2024-11-19,5,Houston, TX,USD,Completed,false,,
+147,8,Purchase,11.70,2024-10-20,9,San Antonio, TX,USD,Completed,false,,
+148,7,Withdrawal,11.83,2024-12-14,1,San Francisco, CA,USD,Completed,false,,
+149,5,Purchase,11.71,2024-11-07,5,Chicago, IL,USD,Completed,false,,
+150,5,Purchase,13.05,2024-10-25,7,Phoenix, AZ,USD,Completed,false,,
+151,3,Withdrawal,11.66,2024-11-03,6,Phoenix, AZ,USD,Completed,false,,
+152,9,Purchase,11.42,2024-12-19,5,Phoenix, AZ,USD,Completed,false,,
+153,7,Purchase,11.00,2024-10-18,1,New York, NY,USD,Completed,false,,
+154,8,Purchase,11.46,2024-12-28,4,Los Angeles, CA,USD,Completed,true,System,Multiple password attempts
+155,5,Withdrawal,12.58,2024-10-25,4,Los Angeles, CA,USD,Completed,true,System,Multiple password attempts
+156,4,Purchase,10.78,2024-11-25,3,Houston, TX,USD,Completed,true,System,Unusual location
+157,1,Purchase,12.72,2024-11-15,1,Dallas, TX,USD,Completed,false,,
+158,3,Purchase,10.37,2024-12-22,1,New York, NY,USD,Completed,false,,
+159,1,Withdrawal,12.95,2024-11-18,4,Los Angeles, CA,USD,Completed,true,System,Exceeds daily limit
+160,9,Withdrawal,13.02,2024-11-15,10,San Diego, CA,USD,Completed,false,,
+161,1,Withdrawal,11.62,2024-12-08,9,San Diego, CA,USD,Completed,false,,
+162,6,Purchase,11.34,2024-12-28,5,Phoenix, AZ,USD,Completed,false,,
+163,9,Withdrawal,10.66,2024-11-25,4,Houston, TX,USD,Completed,false,,
+164,4,Purchase,12.82,2024-11-20,1,Los Angeles, CA,USD,Completed,false,,
+165,10,Withdrawal,11.13,2024-12-22,4,Houston, TX,USD,Completed,false,,
+166,8,Purchase,12.86,2024-11-15,3,Chicago, IL,USD,Completed,true,System,Unusual location
+167,4,Purchase,12.10,2024-12-04,1,Dallas, TX,USD,Completed,false,,
+168,7,Withdrawal,11.43,2024-12-21,4,Houston, TX,USD,Completed,false,,
+169,7,Purchase,11.32,2024-11-07,1,New York, NY,USD,Completed,false,,
+170,9,Purchase,12.74,2024-11-16,4,Chicago, IL,USD,Completed,false,,
+171,8,Purchase,10.13,2024-10-13,5,Phoenix, AZ,USD,Completed,false,,
+172,5,Purchase,11.98,2024-11-05,9,San Antonio, TX,USD,Completed,false,,
+173,4,Purchase,11.80,2024-10-24,10,Dallas, TX,USD,Completed,false,,
+174,2,Purchase,12.46,2024-11-08,9,San Antonio, TX,USD,Completed,false,,
+175,7,Withdrawal,12.45,2024-12-23,4,Los Angeles, CA,USD,Completed,false,,
+176,8,Withdrawal,12.97,2024-11-07,2,San Francisco, CA,USD,Completed,true,System,Large transaction
+177,3,Withdrawal,12.34,2024-12-11,2,San Francisco, CA,USD,Completed,false,,
+178,7,Purchase,10.07,2024-10-22,6,San Antonio, TX,USD,Completed,false,,
+179,9,Withdrawal,10.42,2024-11-21,10,New York, NY,USD,Completed,false,,
+180,9,Purchase,10.80,2024-12-05,5,Phoenix, AZ,USD,Completed,false,,
+181,10,Withdrawal,10.94,2024-11-27,4,Phoenix, AZ,USD,Completed,false,,
+182,5,Withdrawal,11.37,2024-11-26,6,Philadelphia, PA,USD,Completed,false,,
+183,4,Withdrawal,13.03,2024-10-02,10,San Diego, CA,USD,Completed,false,,
+184,3,Purchase,12.16,2024-12-02,9,San Diego, CA,USD,Completed,false,,
+185,8,Purchase,10.58,2024-11-16,10,New York, NY,USD,Completed,false,,
+186,6,Withdrawal,11.75,2024-12-19,4,Los Angeles, CA,USD,Completed,true,System,Exceeds daily limit
+187,3,Purchase,11.82,2024-10-03,9,San Antonio, TX,USD,Completed,false,,
+188,4,Withdrawal,12.74,2024-12-20,2,San Francisco, CA,USD,Completed,false,,
+189,5,Withdrawal,11.39,2024-10-01,8,San Diego, CA,USD,Completed,false,,
+190,8,Withdrawal,11.29,2024-10-03,8,San Diego, CA,USD,Completed,false,,
+191,4,Withdrawal,12.27,2024-10-13,4,Los Angeles, CA,USD,Completed,true,System,Exceeds daily limit
+192,5,Purchase,10.82,2024-12-16,9,Dallas, TX,USD,Completed,false,,
+193,7,Purchase,11.21,2024-10-09,8,Dallas, TX,USD,Completed,false,,
+194,3,Purchase,10.95,2024-12-09,1,New York, NY,USD,Completed,false,,
+195,1,Purchase,11.84,2024-12-27,7,Phoenix, AZ,USD,Completed,false,,
+196,2,Withdrawal,13.20,2024-10-16,4,Houston, TX,USD,Completed,true,System,Amount pattern
+197,7,Purchase,12.61,2024-10-27,7,Phoenix, AZ,USD,Completed,false,,
+198,4,Withdrawal,11.51,2024-10-27,8,Philadelphia, PA,USD,Completed,false,,
+199,1,Purchase,10.56,2024-12-15,9,San Francisco, CA,USD,Completed,false,,
+200,9,Purchase,10.97,2024-10-18,3,Chicago, IL,USD,Completed,true,System,Unusual location
+201,10,Withdrawal,10.83,2024-12-07,3,Houston, TX,USD,Completed,true,System,Unusual location
+202,8,Withdrawal,11.15,2024-12-04,10,San Francisco, CA,USD,Completed,false,,
+203,1,Purchase,13.14,2024-10-15,5,Philadelphia, PA,USD,Completed,false,,
+204,2,Purchase,12.04,2024-10-22,7,Phoenix, AZ,USD,Completed,false,,
+205,9,Withdrawal,11.59,2024-11-22,4,Los Angeles, CA,USD,Completed,true,System,Exceeds daily limit
+206,1,Withdrawal,11.69,2024-10-08,9,San Diego, CA,USD,Completed,false,,
+207,3,Withdrawal,11.88,2024-11-04,8,Philadelphia, PA,USD,Completed,false,,
+208,7,Withdrawal,12.49,2024-12-03,10,San Diego, CA,USD,Completed,false,,
+209,6,Withdrawal,10.91,2024-10-10,6,Philadelphia, PA,USD,Completed,false,,
+210,10,Purchase,12.45,2024-11-21,3,New York, NY,USD,Completed,true,System,Large transaction
+211,1,Purchase,10.87,2024-10-27,7,Phoenix, AZ,USD,Completed,false,,
+212,2,Purchase,12.01,2024-10-16,7,San Diego, CA,USD,Completed,false,,
+213,10,Purchase,10.34,2024-10-13,7,San Antonio, TX,USD,Completed,false,,
+214,5,Withdrawal,12.50,2024-10-14,1,San Francisco, CA,USD,Completed,false,,
+215,6,Withdrawal,12.05,2024-11-21,2,New York, NY,USD,Completed,true,System,Large transaction
+216,2,Purchase,12.90,2024-11-27,7,Phoenix, AZ,USD,Completed,false,,
+217,4,Purchase,10.87,2024-12-18,9,Dallas, TX,USD,Completed,false,,
+218,3,Withdrawal,10.82,2024-12-13,2,Los Angeles, CA,USD,Completed,false,,
+219,1,Withdrawal,13.09,2024-10-04,3,Chicago, IL,USD,Completed,true,System,Unusual location
+220,9,Withdrawal,10.94,2024-11-07,4,Phoenix, AZ,USD,Completed,false,,
+221,8,Purchase,10.87,2024-11-19,5,Philadelphia, PA,USD,Completed,false,,
+222,6,Purchase,11.16,2024-12-17,1,Los Angeles, CA,USD,Completed,false,,
+223,7,Purchase,12.95,2024-11-21,3,New York, NY,USD,Completed,true,System,Large transaction
+224,3,Withdrawal,12.21,2024-10-24,4,Los Angeles, CA,USD,Completed,false,,
+225,2,Withdrawal,11.95,2024-12-16,8,Philadelphia, PA,USD,Completed,false,,
+226,1,Purchase,12.29,2024-10-11,3,Los Angeles, CA,USD,Completed,true,System,Multiple password attempts
+227,2,Withdrawal,12.60,2024-12-04,10,San Diego, CA,USD,Completed,false,,
+228,5,Purchase,10.62,2024-12-14,5,Phoenix, AZ,USD,Completed,false,,
+229,8,Purchase,10.26,2024-11-05,3,Chicago, IL,USD,Completed,true,System,Unusual location
+230,1,Purchase,12.59,2024-10-14,1,Dallas, TX,USD,Completed,false,,
+231,6,Withdrawal,11.37,2024-12-26,7,San Diego, CA,USD,Completed,false,,
+232,9,Withdrawal,12.27,2024-12-17,8,San Antonio, TX,USD,Completed,false,,
+233,5,Purchase,12.91,2024-12-26,9,San Antonio, TX,USD,Completed,false,,
+234,1,Purchase,10.03,2024-11-03,9,San Francisco, CA,USD,Completed,false,,
+235,9,Withdrawal,12.45,2024-11-08,6,Houston, TX,USD,Completed,false,,
+236,10,Withdrawal,11.74,2024-12-05,10,San Diego, CA,USD,Completed,false,,
+237,10,Purchase,11.75,2024-11-04,8,San Antonio, TX,USD,Completed,false,,
+238,4,Purchase,10.95,2024-12-28,7,San Antonio, TX,USD,Completed,false,,
+239,9,Withdrawal,12.42,2024-10-23,10,San Diego, CA,USD,Completed,false,,
+240,7,Withdrawal,12.61,2024-12-08,4,Los Angeles, CA,USD,Completed,true,System,Exceeds daily limit
+241,9,Purchase,11.85,2024-12-14,10,Dallas, TX,USD,Completed,false,,
+242,10,Purchase,11.60,2024-11-09,1,Dallas, TX,USD,Completed,false,,
+243,8,Withdrawal,12.63,2024-10-08,2,San Francisco, CA,USD,Completed,false,,
+244,4,Purchase,10.59,2024-11-03,6,San Antonio, TX,USD,Completed,false,,
+245,6,Purchase,10.47,2024-10-26,3,Chicago, IL,USD,Completed,true,System,Unusual location
+246,8,Purchase,10.37,2024-12-22,5,Philadelphia, PA,USD,Completed,false,,
+247,7,Withdrawal,11.50,2024-10-28,4,Los Angeles, CA,USD,Completed,true,System,Exceeds daily limit
+248,1,Withdrawal,12.38,2024-12-19,8,Philadelphia, PA,USD,Completed,false,,
+249,2,Withdrawal,10.68,2024-10-23,6,Philadelphia, PA,USD,Completed,false,,
+250,7,Withdrawal,13.15,2024-10-11,8,Dallas, TX,USD,Completed,false,,

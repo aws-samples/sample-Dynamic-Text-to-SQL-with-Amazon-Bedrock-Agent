@@ -1,0 +1,11 @@
+merchant_id,merchant_name,category,address,city,state,zipcode,country
+1,QuickMart,E-commerce,123 Tech Lane,Springfield,IL,62704,USA
+2,SuperValue,Retail,456 Market Rd,Fairview,CA,94536,USA
+3,Brew Haven,Coffee Shop,789 Coffee Blvd,Riverside,TX,77320,USA
+4,TechSphere,Electronics,101 Innovation Way,Havenport,NY,10018,USA
+5,ActiveEdge,Sportswear,202 Sporty Dr,Evergreen,CO,80439,USA
+6,FoodCo,Restaurant,303 Food Court,Miami,FL,33101,USA
+7,TechStore,Electronics,404 Tech Ave,Seattle,WA,98101,USA
+8,BookWorld,Retail,505 Reader St,Boston,MA,02101,USA
+9,SportZone,Sports,606 Athletic Dr,Denver,CO,80201,USA
+10,HomeGoods,Home Improvement,707 Home St,Portland,OR,97201,USA

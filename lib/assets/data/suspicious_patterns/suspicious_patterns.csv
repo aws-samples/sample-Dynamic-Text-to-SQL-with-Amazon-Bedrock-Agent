@@ -1,0 +1,141 @@
+pattern_id,transaction_id,pattern_type,pattern_description,severity_level,date_detected,is_resolved,resolved_date,resolved_by,comments
+11,177,Velocity Check,Suspicious pattern detected for Velocity Check,High,2024-11-25,false,,,Generated suspicious pattern for transaction 177
+12,194,Cross-border,Suspicious pattern detected for Cross-border,Low,2024-12-15,false,,,Generated suspicious pattern for transaction 194
+13,91,Geographic Anomaly,Suspicious pattern detected for Geographic Anomaly,High,2024-12-23,false,,,Generated suspicious pattern for transaction 91
+14,170,Cross-border,Suspicious pattern detected for Cross-border,High,2024-11-14,true,2024-10-19,Fraud Team,Generated suspicious pattern for transaction 170
+15,225,Authentication,Suspicious pattern detected for Authentication,Low,2024-11-13,false,,,Generated suspicious pattern for transaction 225
+16,41,Authentication,Suspicious pattern detected for Authentication,High,2024-11-19,false,,,Generated suspicious pattern for transaction 41
+17,214,Off-hours Activity,Suspicious pattern detected for Off-hours Activity,High,2024-11-28,true,2024-10-06,Fraud Team,Generated suspicious pattern for transaction 214
+18,249,Cross-border,Suspicious pattern detected for Cross-border,Low,2024-11-18,true,2024-11-23,Fraud Team,Generated suspicious pattern for transaction 249
+19,48,Off-hours Activity,Suspicious pattern detected for Off-hours Activity,High,2024-10-01,true,2024-10-06,Fraud Team,Generated suspicious pattern for transaction 48
+20,28,Card Present,Suspicious pattern detected for Card Present,High,2024-11-25,true,2024-10-02,Fraud Team,Generated suspicious pattern for transaction 28
+21,37,Large Transaction,Suspicious pattern detected for Large Transaction,High,2024-10-17,false,,,Generated suspicious pattern for transaction 37
+22,240,Amount Pattern,Suspicious pattern detected for Amount Pattern,Low,2024-11-17,true,2024-11-22,Fraud Team,Generated suspicious pattern for transaction 240
+23,250,Amount Pattern,Suspicious pattern detected for Amount Pattern,Low,2024-11-04,true,2024-11-09,Fraud Team,Generated suspicious pattern for transaction 250
+24,62,Authentication,Suspicious pattern detected for Authentication,Medium,2024-11-04,false,,,Generated suspicious pattern for transaction 62
+25,18,Amount Pattern,Suspicious pattern detected for Amount Pattern,Low,2024-10-25,true,2024-10-02,Fraud Team,Generated suspicious pattern for transaction 18
+26,127,Large Transaction,Suspicious pattern detected for Large Transaction,Low,2024-11-19,false,,,Generated suspicious pattern for transaction 127
+27,225,New Device,Suspicious pattern detected for New Device,Low,2024-12-11,false,,,Generated suspicious pattern for transaction 225
+28,36,Large Transaction,Suspicious pattern detected for Large Transaction,Low,2024-11-23,false,,,Generated suspicious pattern for transaction 36
+29,172,Cross-border,Suspicious pattern detected for Cross-border,Low,2024-11-15,true,2024-11-20,Fraud Team,Generated suspicious pattern for transaction 172
+30,102,Rapid Succession,Suspicious pattern detected for Rapid Succession,High,2024-10-07,true,2024-10-12,Fraud Team,Generated suspicious pattern for transaction 102
+31,99,Velocity Check,Suspicious pattern detected for Velocity Check,Low,2024-11-01,false,,,Generated suspicious pattern for transaction 99
+32,37,Card Present,Suspicious pattern detected for Card Present,Low,2024-11-27,false,,,Generated suspicious pattern for transaction 37
+33,202,Large Transaction,Suspicious pattern detected for Large Transaction,High,2024-12-10,true,2024-12-15,Fraud Team,Generated suspicious pattern for transaction 202
+34,207,Cross-border,Suspicious pattern detected for Cross-border,Low,2024-12-07,true,2024-12-12,Fraud Team,Generated suspicious pattern for transaction 207
+35,27,Cross-border,Suspicious pattern detected for Cross-border,Low,2024-10-20,true,2024-10-25,Fraud Team,Generated suspicious pattern for transaction 27
+36,179,Rapid Succession,Suspicious pattern detected for Rapid Succession,Low,2024-10-03,false,,,Generated suspicious pattern for transaction 179
+37,158,Large Transaction,Suspicious pattern detected for Large Transaction,Low,2024-12-20,true,2024-12-26,Fraud Team,Generated suspicious pattern for transaction 158
+38,28,Authentication,Suspicious pattern detected for Authentication,High,2024-10-24,false,,,Generated suspicious pattern for transaction 28
+39,120,Authentication,Suspicious pattern detected for Authentication,Low,2024-10-19,false,,,Generated suspicious pattern for transaction 120
+40,23,Geographic Anomaly,Suspicious pattern detected for Geographic Anomaly,Low,2024-10-21,false,,,Generated suspicious pattern for transaction 23
+41,60,Large Transaction,Suspicious pattern detected for Large Transaction,Low,2024-11-12,false,,,Generated suspicious pattern for transaction 60
+42,69,Large Transaction,Suspicious pattern detected for Large Transaction,High,2024-11-03,false,,,Generated suspicious pattern for transaction 69
+43,234,Geographic Anomaly,Suspicious pattern detected for Geographic Anomaly,Medium,2024-12-02,false,,,Generated suspicious pattern for transaction 234
+44,68,Authentication,Suspicious pattern detected for Authentication,Medium,2024-11-27,false,,,Generated suspicious pattern for transaction 68
+45,57,New Device,Suspicious pattern detected for New Device,Low,2024-12-25,false,,,Generated suspicious pattern for transaction 57
+46,178,Off-hours Activity,Suspicious pattern detected for Off-hours Activity,Low,2024-11-23,true,2024-11-28,Fraud Team,Generated suspicious pattern for transaction 178
+47,245,Large Transaction,Suspicious pattern detected for Large Transaction,Low,2024-12-28,false,,,Generated suspicious pattern for transaction 245
+48,57,Amount Pattern,Suspicious pattern detected for Amount Pattern,Medium,2024-12-28,true,2024-11-05,Fraud Team,Generated suspicious pattern for transaction 57
+49,43,Geographic Anomaly,Suspicious pattern detected for Geographic Anomaly,Low,2024-11-25,false,,,Generated suspicious pattern for transaction 43
+50,104,Cross-border,Suspicious pattern detected for Cross-border,Medium,2024-12-05,true,2024-11-10,Fraud Team,Generated suspicious pattern for transaction 104
+51,132,New Device,Suspicious pattern detected for New Device,Low,2024-11-22,false,,,Generated suspicious pattern for transaction 132
+52,96,Geographic Anomaly,Suspicious pattern detected for Geographic Anomaly,High,2024-10-11,true,2024-10-16,Fraud Team,Generated suspicious pattern for transaction 96
+53,202,New Device,Suspicious pattern detected for New Device,High,2024-10-12,false,,,Generated suspicious pattern for transaction 202
+54,201,Large Transaction,Suspicious pattern detected for Large Transaction,Medium,2024-11-09,false,,,Generated suspicious pattern for transaction 201
+55,220,Off-hours Activity,Suspicious pattern detected for Off-hours Activity,Low,2024-12-05,true,2024-12-02,Fraud Team,Generated suspicious pattern for transaction 220
+56,13,Amount Pattern,Suspicious pattern detected for Amount Pattern,Low,2024-10-01,true,2024-12-06,Fraud Team,Generated suspicious pattern for transaction 13
+57,78,Geographic Anomaly,Suspicious pattern detected for Geographic Anomaly,High,2024-10-21,false,,,Generated suspicious pattern for transaction 78
+58,229,Amount Pattern,Suspicious pattern detected for Amount Pattern,High,2024-12-12,true,2024-12-18,Fraud Team,Generated suspicious pattern for transaction 229
+59,165,Off-hours Activity,Suspicious pattern detected for Off-hours Activity,Medium,2024-12-08,true,2024-11-14,Fraud Team,Generated suspicious pattern for transaction 165
+60,106,Geographic Anomaly,Suspicious pattern detected for Geographic Anomaly,Low,2024-11-22,true,2024-11-27,Fraud Team,Generated suspicious pattern for transaction 106
+61,237,Amount Pattern,Suspicious pattern detected for Amount Pattern,High,2024-10-14,true,2024-12-19,Fraud Team,Generated suspicious pattern for transaction 237
+62,5,Velocity Check,Suspicious pattern detected for Velocity Check,Low,2024-11-28,false,,,Generated suspicious pattern for transaction 5
+63,96,Authentication,Suspicious pattern detected for Authentication,High,2024-11-14,false,,,Generated suspicious pattern for transaction 96
+64,33,Rapid Succession,Suspicious pattern detected for Rapid Succession,Low,2024-12-08,true,2024-12-13,Fraud Team,Generated suspicious pattern for transaction 33
+65,78,Authentication,Suspicious pattern detected for Authentication,Low,2024-11-08,false,,,Generated suspicious pattern for transaction 78
+66,120,Amount Pattern,Suspicious pattern detected for Amount Pattern,Low,2024-12-08,true,2024-12-05,Fraud Team,Generated suspicious pattern for transaction 120
+67,158,Rapid Succession,Suspicious pattern detected for Rapid Succession,High,2024-10-02,true,2024-12-07,Fraud Team,Generated suspicious pattern for transaction 158
+68,228,Authentication,Suspicious pattern detected for Authentication,High,2024-12-25,false,,,Generated suspicious pattern for transaction 228
+69,20,Card Present,Suspicious pattern detected for Card Present,Low,2024-11-12,true,2024-11-17,Fraud Team,Generated suspicious pattern for transaction 20
+70,112,Amount Pattern,Suspicious pattern detected for Amount Pattern,Medium,2024-12-19,true,2024-11-24,Fraud Team,Generated suspicious pattern for transaction 112
+71,162,Amount Pattern,Suspicious pattern detected for Amount Pattern,Medium,2024-11-24,false,,,Generated suspicious pattern for transaction 162
+72,194,New Device,Suspicious pattern detected for New Device,High,2024-11-24,false,,,Generated suspicious pattern for transaction 194
+73,88,Rapid Succession,Suspicious pattern detected for Rapid Succession,Medium,2024-11-23,true,2024-11-28,Fraud Team,Generated suspicious pattern for transaction 88
+74,106,Card Present,Suspicious pattern detected for Card Present,Medium,2024-11-04,true,2024-11-09,Fraud Team,Generated suspicious pattern for transaction 106
+75,238,Rapid Succession,Suspicious pattern detected for Rapid Succession,Low,2024-11-10,true,2024-11-15,Fraud Team,Generated suspicious pattern for transaction 238
+76,3,Rapid Succession,Suspicious pattern detected for Rapid Succession,High,2024-10-25,true,2024-12-02,Fraud Team,Generated suspicious pattern for transaction 3
+77,107,Cross-border,Suspicious pattern detected for Cross-border,Medium,2024-11-20,false,,,Generated suspicious pattern for transaction 107
+78,25,Card Present,Suspicious pattern detected for Card Present,Medium,2024-10-28,true,2024-10-05,Fraud Team,Generated suspicious pattern for transaction 25
+79,81,Amount Pattern,Suspicious pattern detected for Amount Pattern,Low,2024-10-05,true,2024-12-10,Fraud Team,Generated suspicious pattern for transaction 81
+80,29,Card Present,Suspicious pattern detected for Card Present,High,2024-12-06,false,,,Generated suspicious pattern for transaction 29
+81,67,Velocity Check,Suspicious pattern detected for Velocity Check,Medium,2024-11-18,false,,,Generated suspicious pattern for transaction 67
+82,15,Card Present,Suspicious pattern detected for Card Present,Medium,2024-10-10,false,,,Generated suspicious pattern for transaction 15
+83,143,Large Transaction,Suspicious pattern detected for Large Transaction,Medium,2024-11-13,false,,,Generated suspicious pattern for transaction 143
+84,195,New Device,Suspicious pattern detected for New Device,Low,2024-12-19,false,,,Generated suspicious pattern for transaction 195
+85,45,Velocity Check,Suspicious pattern detected for Velocity Check,Medium,2024-12-06,false,,,Generated suspicious pattern for transaction 45
+86,175,Large Transaction,Suspicious pattern detected for Large Transaction,High,2024-10-04,false,,,Generated suspicious pattern for transaction 175
+87,185,Rapid Succession,Suspicious pattern detected for Rapid Succession,Low,2024-12-21,true,2024-11-26,Fraud Team,Generated suspicious pattern for transaction 185
+88,7,Cross-border,Suspicious pattern detected for Cross-border,Medium,2024-11-26,true,2024-10-04,Fraud Team,Generated suspicious pattern for transaction 7
+89,127,Amount Pattern,Suspicious pattern detected for Amount Pattern,Medium,2024-11-09,true,2024-11-14,Fraud Team,Generated suspicious pattern for transaction 127
+90,198,Off-hours Activity,Suspicious pattern detected for Off-hours Activity,Medium,2024-11-06,true,2024-11-11,Fraud Team,Generated suspicious pattern for transaction 198
+91,191,Rapid Succession,Suspicious pattern detected for Rapid Succession,Low,2024-10-17,true,2024-10-22,Fraud Team,Generated suspicious pattern for transaction 191
+92,193,Authentication,Suspicious pattern detected for Authentication,High,2024-12-02,false,,,Generated suspicious pattern for transaction 193
+93,3,Velocity Check,Suspicious pattern detected for Velocity Check,Medium,2024-12-18,false,,,Generated suspicious pattern for transaction 3
+94,39,Cross-border,Suspicious pattern detected for Cross-border,Medium,2024-10-17,true,2024-10-22,Fraud Team,Generated suspicious pattern for transaction 39
+95,47,Amount Pattern,Suspicious pattern detected for Amount Pattern,Low,2024-11-19,true,2024-10-24,Fraud Team,Generated suspicious pattern for transaction 47
+96,87,Rapid Succession,Suspicious pattern detected for Rapid Succession,High,2024-10-05,true,2024-12-10,Fraud Team,Generated suspicious pattern for transaction 87
+97,126,Geographic Anomaly,Suspicious pattern detected for Geographic Anomaly,High,2024-11-01,false,,,Generated suspicious pattern for transaction 126
+98,91,Geographic Anomaly,Suspicious pattern detected for Geographic Anomaly,Medium,2024-10-12,false,,,Generated suspicious pattern for transaction 91
+99,114,Velocity Check,Suspicious pattern detected for Velocity Check,Low,2024-10-24,false,,,Generated suspicious pattern for transaction 114
+100,29,Cross-border,Suspicious pattern detected for Cross-border,High,2024-10-06,true,2024-10-11,Fraud Team,Generated suspicious pattern for transaction 29
+101,142,Amount Pattern,Suspicious pattern detected for Amount Pattern,High,2024-12-28,true,2024-12-05,Fraud Team,Generated suspicious pattern for transaction 142
+102,185,Large Transaction,Suspicious pattern detected for Large Transaction,Medium,2024-11-09,false,,,Generated suspicious pattern for transaction 185
+103,185,New Device,Suspicious pattern detected for New Device,High,2024-10-19,false,,,Generated suspicious pattern for transaction 185
+104,31,Authentication,Suspicious pattern detected for Authentication,Medium,2024-11-03,false,,,Generated suspicious pattern for transaction 31
+105,158,Cross-border,Suspicious pattern detected for Cross-border,Low,2024-10-21,true,2024-12-26,Fraud Team,Generated suspicious pattern for transaction 158
+106,108,Large Transaction,Suspicious pattern detected for Large Transaction,Low,2024-10-05,false,,,Generated suspicious pattern for transaction 108
+107,163,Card Present,Suspicious pattern detected for Card Present,Low,2024-12-26,false,,,Generated suspicious pattern for transaction 163
+108,225,New Device,Suspicious pattern detected for New Device,Medium,2024-10-23,false,,,Generated suspicious pattern for transaction 225
+109,237,New Device,Suspicious pattern detected for New Device,Low,2024-11-18,false,,,Generated suspicious pattern for transaction 237
+110,220,Authentication,Suspicious pattern detected for Authentication,Low,2024-11-20,false,,,Generated suspicious pattern for transaction 220
+111,162,Cross-border,Suspicious pattern detected for Cross-border,Medium,2024-11-05,true,2024-10-10,Fraud Team,Generated suspicious pattern for transaction 162
+112,226,Card Present,Suspicious pattern detected for Card Present,Medium,2024-11-26,true,2024-11-03,Fraud Team,Generated suspicious pattern for transaction 226
+113,80,Authentication,Suspicious pattern detected for Authentication,Low,2024-10-22,false,,,Generated suspicious pattern for transaction 80
+114,2,Off-hours Activity,Suspicious pattern detected for Off-hours Activity,Medium,2024-12-18,true,2024-12-15,Fraud Team,Generated suspicious pattern for transaction 2
+115,170,Geographic Anomaly,Suspicious pattern detected for Geographic Anomaly,High,2024-10-06,false,,,Generated suspicious pattern for transaction 170
+116,63,Geographic Anomaly,Suspicious pattern detected for Geographic Anomaly,High,2024-10-06,false,,,Generated suspicious pattern for transaction 63
+117,226,Cross-border,Suspicious pattern detected for Cross-border,High,2024-12-11,true,2024-12-16,Fraud Team,Generated suspicious pattern for transaction 226
+118,114,Off-hours Activity,Suspicious pattern detected for Off-hours Activity,High,2024-10-03,true,2024-10-08,Fraud Team,Generated suspicious pattern for transaction 114
+119,62,Geographic Anomaly,Suspicious pattern detected for Geographic Anomaly,High,2024-10-06,false,,,Generated suspicious pattern for transaction 62
+120,163,Cross-border,Suspicious pattern detected for Cross-border,Low,2024-10-15,true,2024-10-20,Fraud Team,Generated suspicious pattern for transaction 163
+121,242,Cross-border,Suspicious pattern detected for Cross-border,High,2024-11-11,true,2024-10-16,Fraud Team,Generated suspicious pattern for transaction 242
+122,34,Card Present,Suspicious pattern detected for Card Present,High,2024-10-03,true,2024-10-08,Fraud Team,Generated suspicious pattern for transaction 34
+123,51,Authentication,Suspicious pattern detected for Authentication,High,2024-12-19,true,2024-12-24,Fraud Team,Generated suspicious pattern for transaction 51
+124,194,Authentication,Suspicious pattern detected for Authentication,High,2024-11-25,false,,,Generated suspicious pattern for transaction 194
+125,67,Card Present,Suspicious pattern detected for Card Present,Low,2024-10-20,true,2024-10-25,Fraud Team,Generated suspicious pattern for transaction 67
+126,230,Amount Pattern,Suspicious pattern detected for Amount Pattern,High,2024-12-18,true,2024-12-23,Fraud Team,Generated suspicious pattern for transaction 230
+127,250,Amount Pattern,Suspicious pattern detected for Amount Pattern,High,2024-10-18,true,2024-10-24,Fraud Team,Generated suspicious pattern for transaction 250
+128,213,Velocity Check,Suspicious pattern detected for Velocity Check,High,2024-11-07,false,,,Generated suspicious pattern for transaction 213
+129,225,Rapid Succession,Suspicious pattern detected for Rapid Succession,Medium,2024-11-21,true,2024-10-26,Fraud Team,Generated suspicious pattern for transaction 225
+130,235,Large Transaction,Suspicious pattern detected for Large Transaction,High,2024-12-14,false,,,Generated suspicious pattern for transaction 235
+131,148,Amount Pattern,Suspicious pattern detected for Amount Pattern,Low,2024-12-03,true,2024-11-08,Fraud Team,Generated suspicious pattern for transaction 148
+132,104,Cross-border,Suspicious pattern detected for Cross-border,Medium,2024-10-18,true,2024-10-23,Fraud Team,Generated suspicious pattern for transaction 104
+133,61,Rapid Succession,Suspicious pattern detected for Rapid Succession,Low,2024-12-10,true,2024-12-15,Fraud Team,Generated suspicious pattern for transaction 61
+134,156,Card Present,Suspicious pattern detected for Card Present,Low,2024-11-21,true,2024-10-26,Fraud Team,Generated suspicious pattern for transaction 156
+135,127,New Device,Suspicious pattern detected for New Device,Low,2024-12-17,false,,,Generated suspicious pattern for transaction 127
+136,229,Amount Pattern,Suspicious pattern detected for Amount Pattern,Medium,2024-11-22,true,2024-11-28,Fraud Team,Generated suspicious pattern for transaction 229
+137,101,Velocity Check,Suspicious pattern detected for Velocity Check,Low,2024-11-03,false,,,Generated suspicious pattern for transaction 101
+138,53,Velocity Check,Suspicious pattern detected for Velocity Check,High,2024-10-19,false,,,Generated suspicious pattern for transaction 53
+139,15,Amount Pattern,Suspicious pattern detected for Amount Pattern,Medium,2024-10-20,true,2024-12-25,Fraud Team,Generated suspicious pattern for transaction 15
+140,208,Off-hours Activity,Suspicious pattern detected for Off-hours Activity,High,2024-10-02,true,2024-10-07,Fraud Team,Generated suspicious pattern for transaction 208
+141,71,Authentication,Suspicious pattern detected for Authentication,High,2024-12-25,true,2024-12-03,Fraud Team,Generated suspicious pattern for transaction 71
+142,110,Velocity Check,Suspicious pattern detected for Velocity Check,High,2024-10-28,false,,,Generated suspicious pattern for transaction 110
+143,69,Rapid Succession,Suspicious pattern detected for Rapid Succession,Medium,2024-10-13,true,2024-10-18,Fraud Team,Generated suspicious pattern for transaction 69
+144,118,Geographic Anomaly,Suspicious pattern detected for Geographic Anomaly,Low,2024-12-11,false,,,Generated suspicious pattern for transaction 118
+145,102,Amount Pattern,Suspicious pattern detected for Amount Pattern,Low,2024-11-23,true,2024-11-28,Fraud Team,Generated suspicious pattern for transaction 102
+146,220,Geographic Anomaly,Suspicious pattern detected for Geographic Anomaly,Low,2024-10-20,false,,,Generated suspicious pattern for transaction 220
+147,69,Large Transaction,Suspicious pattern detected for Large Transaction,Low,2024-12-19,false,,,Generated suspicious pattern for transaction 69
+148,8,Card Present,Suspicious pattern detected for Card Present,Medium,2024-10-14,true,2024-10-19,Fraud Team,Generated suspicious pattern for transaction 8
+149,212,Amount Pattern,Suspicious pattern detected for Amount Pattern,High,2024-12-19,true,2024-12-24,Fraud Team,Generated suspicious pattern for transaction 212
+150,150,Large Transaction,Suspicious pattern detected for Large Transaction,Low,2024-11-14,false,,,Generated suspicious pattern for transaction 150

@@ -1,0 +1,241 @@
+history_id,transaction_id,previous_balance,new_balance,transaction_date,transaction_time,is_fraud,fraud_check_level,processed_by,review_status,review_date,reviewer_comments
+11,11,1029.46,1016.34,2024-12-16,17:10:36,true,High,System,Flagged,2024-11-04,Generated comment for transaction 11
+12,12,1020.80,1008.54,2024-12-28,04:14:14,false,Enhanced,AI Model,Flagged,2024-11-16,Generated comment for transaction 12
+13,13,1012.14,1000.75,2024-11-21,08:18:51,false,High,AI Model,Flagged,2024-11-28,Generated comment for transaction 13
+14,14,1003.48,992.95,2024-12-05,11:22:29,false,Enhanced,System,Flagged,2024-10-20,Generated comment for transaction 14
+15,15,1027.59,1014.65,2024-12-17,22:27:06,false,High,AI Model,Under Review,2024-11-05,Generated comment for transaction 15
+16,16,1018.93,1006.86,2024-12-01,01:31:44,false,High,System,Flagged,2024-11-17,Generated comment for transaction 16
+17,17,1010.26,999.06,2024-11-14,05:43:21,true,High,AI Model,Flagged,2024-11-01,Generated comment for transaction 17
+18,18,1001.60,991.26,2024-11-26,08:47:59,true,High,AI Model,Under Review,2024-10-14,Generated comment for transaction 18
+19,19,1025.71,1012.96,2024-12-10,19:52:36,false,High,System,Approved,,
+20,20,1000.21,990.01,2024-12-24,08:45:08,false,High,AI Model,Flagged,2024-10-11,Generated comment for transaction 20
+21,21,1024.32,1011.71,2024-12-08,19:50:46,false,Enhanced,System,Approved,,
+22,22,1031.59,1021.53,2024-12-22,08:35:18,false,High,AI Model,Under Review,2024-10-09,Generated comment for transaction 22
+23,23,1022.93,1010.46,2024-12-06,19:48:47,false,High,System,Approved,,
+24,24,1030.20,1017.00,2024-12-20,08:33:19,false,High,AI Model,Flagged,2024-11-07,Generated comment for transaction 24
+25,25,1021.54,1009.21,2024-12-04,19:37:56,false,Enhanced,System,Flagged,2024-11-19,Generated comment for transaction 25
+26,26,1012.87,1001.41,2024-12-16,22:50:34,false,High,AI Model,Under Review,2024-11-04,Generated comment for transaction 26
+27,27,1004.21,993.61,2024-11-28,02:54:11,true,High,AI Model,Under Review,2024-10-16,Generated comment for transaction 27
+28,28,1028.32,1015.31,2024-12-13,05:58:49,false,High,System,Flagged,2024-10-28,Generated comment for transaction 28
+29,29,1019.66,1007.52,2024-12-05,16:02:27,false,High,AI Model,Approved,,
+30,30,1026.93,1014.06,2024-12-11,13:56:58,false,Enhanced,System,Under Review,2024-11-26,Generated comment for transaction 30
+31,31,1018.27,1006.27,2024-12-23,16:00:36,false,High,AI Model,Approved,,
+32,32,1025.54,1012.81,2024-12-08,13:46:08,false,High,System,Approved,,
+33,33,1000.04,989.86,2024-12-22,02:40:39,false,High,AI Model,Flagged,2024-11-10,Generated comment for transaction 33
+34,34,1024.15,1011.56,2024-12-06,13:44:17,false,Enhanced,System,Approved,,
+35,35,1031.41,1021.37,2024-12-12,02:38:49,false,Enhanced,AI Model,Flagged,2024-11-28,Generated comment for transaction 35
+36,36,1022.75,1010.30,2024-12-04,13:42:26,false,High,System,Under Review,2024-11-20,Generated comment for transaction 36
+37,37,1014.09,1002.50,2024-12-16,17:46:04,true,High,AI Model,Flagged,2024-11-04,Generated comment for transaction 37
+38,38,1005.43,994.71,2024-11-01,20:50:33,false,High,AI Model,Under Review,2024-10-16,Generated comment for transaction 38
+39,39,1029.54,1016.41,2024-12-13,23:03:11,false,High,System,Flagged,2024-10-01,Generated comment for transaction 39
+40,40,1020.88,1008.61,2024-12-25,10:07:48,false,High,AI Model,Approved,,
+41,41,1012.22,1000.82,2024-11-10,13:11:26,false,Enhanced,System,Under Review,2024-11-25,Generated comment for transaction 41
+42,42,1003.56,993.03,2024-11-02,17:15:04,false,High,System,Flagged,2024-10-09,Generated comment for transaction 42
+43,43,1027.66,1014.72,2024-11-14,04:20:41,false,Enhanced,AI Model,Flagged,2024-10-02,Generated comment for transaction 43
+44,44,1019.00,1006.92,2024-12-26,07:24:19,true,High,System,Approved,,
+45,45,1026.27,1013.47,2024-12-12,04:18:50,true,High,AI Model,Approved,,
+46,46,1000.77,990.52,2024-12-18,17:11:22,false,Enhanced,System,Under Review,2024-10-05,Generated comment for transaction 46
+47,47,1024.88,1012.21,2024-12-02,04:15:00,false,High,AI Model,Approved,,
+48,48,1032.15,1022.03,2024-12-15,17:01:31,false,High,System,Flagged,2024-10-03,Generated comment for transaction 48
+49,49,1023.49,1010.96,2024-12-28,04:13:09,false,Enhanced,AI Model,Approved,,
+50,50,1030.76,1017.51,2024-12-13,17:59:41,false,Enhanced,System,Flagged,2024-11-01,Generated comment for transaction 50
+51,51,1022.10,1009.71,2024-12-26,04:03:18,false,High,AI Model,Approved,,
+52,52,1029.37,1016.26,2024-12-11,17:57:50,false,High,System,Under Review,2024-11-27,Generated comment for transaction 52
+53,53,1020.70,1008.45,2024-12-24,04:01:28,false,High,AI Model,Flagged,2024-11-11,Generated comment for transaction 53
+54,54,1012.04,1000.66,2024-11-08,08:05:57,false,High,System,Under Review,2024-11-23,Generated comment for transaction 54
+55,55,1003.38,992.86,2024-11-20,11:18:35,false,High,System,Flagged,2024-10-08,Generated comment for transaction 55
+56,56,1027.49,1014.56,2024-12-04,22:22:12,false,High,AI Model,Flagged,2024-11-20,Generated comment for transaction 56
+57,57,1018.83,1006.77,2024-11-23,07:37:56,false,High,System,Flagged,2024-10-11,Generated comment for transaction 57
+58,58,1027.01,1014.13,2024-11-07,19:49:33,false,Standard,System,Flagged,2024-10-23,Generated comment for transaction 58
+59,59,1018.35,1006.34,2024-12-20,22:53:11,false,Enhanced,AI Model,Approved,,
+60,60,1025.62,1014.47,2024-11-11,15:08:54,false,Standard,System,Under Review,2024-10-26,Generated comment for transaction 60
+61,61,1017.86,1007.49,2024-11-28,15:42:43,true,Standard,System,Under Review,2024-10-16,Generated comment for transaction 61
+62,62,1010.11,998.92,2024-10-12,18:54:20,false,Standard,AI Model,Approved,,
+63,63,1017.38,1005.46,2024-11-26,15:39:52,false,Standard,System,Approved,,
+64,64,1024.65,1012.01,2024-11-04,12:33:24,false,Standard,AI Model,Flagged,2024-10-19,Generated comment for transaction 64
+65,65,1015.99,1004.21,2024-11-24,15:37:02,false,Standard,System,Approved,,
+66,66,1023.26,1010.76,2024-11-01,12:31:33,false,Standard,AI Model,Approved,,
+67,67,1030.53,1017.30,2024-11-15,01:17:05,false,Enhanced,System,Approved,,
+68,68,1005.03,994.35,2024-11-01,22:10:37,false,Enhanced,AI Model,Approved,,
+69,69,1012.30,1000.89,2024-12-06,19:04:01,false,High,System,Approved,,
+70,70,1019.56,1007.43,2024-12-20,16:50:32,false,Enhanced,AI Model,Approved,,
+71,71,1026.83,1013.97,2024-12-06,13:43:04,true,Standard,System,Flagged,2024-10-13,Generated comment for transaction 71
+72,72,1018.17,1006.18,2024-12-18,16:48:42,true,High,AI Model,Approved,,
+73,73,1025.44,1012.72,2024-12-24,13:41:14,false,Enhanced,System,Approved,,
+74,74,1032.71,1022.54,2024-12-09,02:35:45,false,Enhanced,AI Model,Under Review,2024-10-25,Generated comment for transaction 74
+75,75,1024.05,1011.47,2024-12-22,13:39:23,false,High,System,Approved,,
+76,76,1031.32,1021.29,2024-12-07,02:25:55,false,High,AI Model,Flagged,2024-11-23,Generated comment for transaction 76
+77,77,1022.66,1010.22,2024-12-19,13:37:32,false,Enhanced,System,Approved,,
+78,78,1029.93,1016.76,2024-12-05,02:23:04,false,Enhanced,AI Model,Flagged,2024-11-21,Generated comment for transaction 78
+79,79,1021.27,1008.97,2024-12-17,13:27:42,false,High,System,Under Review,2024-11-05,Generated comment for transaction 79
+80,80,1012.60,1001.16,2024-12-02,17:31:19,false,High,AI Model,Flagged,2024-11-17,Generated comment for transaction 80
+81,81,1003.94,993.37,2024-11-14,20:43:57,true,Enhanced,AI Model,Flagged,2024-10-01,Generated comment for transaction 81
+82,82,1028.05,1015.07,2024-12-26,07:48:34,false,High,System,Under Review,2024-10-14,Generated comment for transaction 82
+83,83,1019.39,1007.27,2024-12-10,10:52:12,false,High,AI Model,Approved,,
+84,84,1026.66,1013.82,2024-12-24,07:46:44,false,High,System,Flagged,2024-11-12,Generated comment for transaction 84
+85,85,1018.00,1006.02,2024-12-08,10:50:13,false,Enhanced,AI Model,Approved,,
+86,86,1025.27,1012.57,2024-12-22,07:35:45,false,High,System,Approved,,
+87,87,1032.54,1022.39,2024-12-08,20:29:17,false,Enhanced,AI Model,Under Review,2024-11-15,Generated comment for transaction 87
+88,88,1023.88,1011.32,2024-12-20,07:33:54,false,High,System,Approved,,
+89,89,1031.14,1021.13,2024-12-25,20:27:26,false,High,AI Model,Under Review,2024-11-13,Generated comment for transaction 89
+90,90,1022.48,1010.05,2024-12-18,07:31:03,false,Enhanced,System,Flagged,2024-11-25,Generated comment for transaction 90
+91,91,1013.82,1002.26,2024-12-02,11:36:41,true,High,AI Model,Under Review,2024-11-18,Generated comment for transaction 91
+92,92,1005.16,994.47,2024-11-14,14:40:19,false,High,AI Model,Flagged,2024-10-02,Generated comment for transaction 92
+93,93,1029.27,1016.17,2024-12-26,17:52:56,false,Enhanced,System,Flagged,2024-11-14,Generated comment for transaction 93
+94,94,1020.61,1008.37,2024-12-11,04:56:34,false,High,AI Model,Approved,,
+95,95,1027.88,1014.92,2024-12-24,01:42:05,false,High,System,Under Review,2024-11-12,Generated comment for transaction 95
+96,96,1019.22,1007.12,2024-12-09,04:46:43,false,High,AI Model,Flagged,2024-11-24,Generated comment for transaction 96
+97,97,1010.56,999.33,2024-11-21,08:58:20,false,Enhanced,System,Flagged,2024-11-08,Generated comment for transaction 97
+98,98,1001.90,991.53,2024-11-05,11:03:58,true,High,System,Under Review,2024-10-21,Generated comment for transaction 98
+99,99,1026.00,1013.22,2024-11-24,04:18:41,false,High,AI Model,Approved,,
+100,100,1017.34,1005.43,2024-12-10,01:11:13,false,Enhanced,System,Approved,,
+101,101,1024.61,1011.97,2024-12-15,22:05:37,false,Enhanced,AI Model,Approved,,
+102,102,1031.88,1021.79,2024-12-01,11:51:09,false,High,System,Under Review,2024-10-17,Generated comment for transaction 102
+103,103,1023.22,1010.72,2024-12-13,22:03:46,false,High,AI Model,Approved,,
+104,104,1030.49,1017.26,2024-12-27,11:48:18,false,High,System,Flagged,2024-11-14,Generated comment for transaction 104
+105,105,1021.83,1009.47,2024-12-11,22:53:56,false,Enhanced,AI Model,Approved,,
+106,106,1029.10,1016.01,2024-12-25,11:46:27,false,Enhanced,System,Flagged,2024-11-04,Generated comment for transaction 106
+107,107,1020.43,1008.21,2024-12-09,22:51:05,false,High,AI Model,Under Review,2024-11-25,Generated comment for transaction 107
+108,108,1011.77,1000.42,2024-11-21,02:55:42,false,High,System,Flagged,2024-11-09,Generated comment for transaction 108
+109,109,1003.11,992.62,2024-11-05,05:07:20,false,Enhanced,System,Under Review,2024-10-21,Generated comment for transaction 109
+110,110,1027.22,1014.32,2024-12-18,16:11:57,false,High,AI Model,Under Review,2024-11-05,Generated comment for transaction 110
+111,111,1018.56,1006.53,2024-12-02,19:16:35,false,High,System,Approved,,
+112,112,1025.83,1013.07,2024-12-16,16:01:07,false,High,AI Model,Approved,,
+113,113,1000.33,990.12,2024-12-01,05:55:39,false,High,System,Flagged,2024-11-17,Generated comment for transaction 113
+114,114,1024.44,1011.82,2024-12-14,16:59:16,false,Enhanced,AI Model,Approved,,
+115,115,1031.71,1021.64,2024-12-27,05:53:48,false,Enhanced,System,Flagged,2024-11-07,Generated comment for transaction 115
+116,116,1023.04,1010.56,2024-12-11,16:57:17,false,High,AI Model,Under Review,2024-11-27,Generated comment for transaction 116
+117,117,1014.38,1002.76,2024-12-24,20:01:55,false,Enhanced,System,Flagged,2024-11-11,Generated comment for transaction 117
+118,118,1005.72,994.97,2024-11-08,23:06:32,false,High,System,Under Review,2024-10-24,Generated comment for transaction 118
+119,119,1029.83,1016.67,2024-12-20,02:18:10,false,High,AI Model,Under Review,2024-10-08,Generated comment for transaction 119
+120,120,1021.17,1008.88,2024-12-04,13:22:48,false,High,System,Approved,,
+121,121,1028.44,1015.42,2024-12-18,02:08:19,false,Enhanced,AI Model,Flagged,2024-11-06,Generated comment for transaction 121
+122,122,1019.78,1007.63,2024-12-02,13:20:57,false,Enhanced,System,Approved,,
+123,123,1027.05,1014.17,2024-12-16,10:06:29,false,High,AI Model,Under Review,2024-11-04,Generated comment for transaction 123
+124,124,1018.39,1006.37,2024-12-28,13:10:06,false,High,System,Flagged,2024-11-16,Generated comment for transaction 124
+125,125,1009.73,998.58,2024-11-13,17:22:44,true,Enhanced,AI Model,Under Review,2024-11-28,Generated comment for transaction 125
+126,126,1001.06,990.78,2024-11-25,20:26:21,true,High,AI Model,Under Review,2024-10-12,Generated comment for transaction 126
+127,127,1025.17,1012.48,2024-12-09,07:31:59,false,High,System,Approved,,
+128,128,1032.44,1022.30,2024-12-23,20:16:31,false,Enhanced,AI Model,Flagged,2024-10-10,Generated comment for transaction 128
+129,129,1023.78,1011.22,2024-12-07,07:29:08,false,Enhanced,System,Approved,,
+130,130,1031.05,1021.04,2024-12-21,20:14:40,false,Enhanced,AI Model,Under Review,2024-11-08,Generated comment for transaction 130
+131,131,1022.39,1009.97,2024-12-05,07:18:17,false,High,System,Approved,,
+132,132,1029.66,1016.52,2024-12-19,20:12:41,false,High,AI Model,Flagged,2024-11-06,Generated comment for transaction 132
+133,133,1021.00,1008.72,2024-12-03,07:16:19,false,Enhanced,System,Flagged,2024-11-18,Generated comment for transaction 133
+134,134,1012.33,1000.92,2024-12-15,11:21:56,false,High,AI Model,Under Review,2024-11-03,Generated comment for transaction 134
+135,135,1003.67,993.03,2024-11-04,10:02:45,false,Enhanced,AI Model,Under Review,2024-10-20,Generated comment for transaction 135
+136,136,1028.69,1017.24,2024-11-22,10:36:34,false,High,AI Model,Approved,,
+137,137,1004.10,993.51,2024-11-08,07:21:06,false,High,System,Approved,,
+138,138,1011.37,1000.06,2024-11-21,04:15:38,false,High,AI Model,Approved,,
+139,139,1018.64,1006.60,2024-12-27,01:08:10,false,Standard,System,Approved,,
+140,140,1025.91,1013.14,2024-11-13,22:54:41,false,Standard,AI Model,Approved,,
+141,141,1000.41,990.19,2024-11-26,11:48:13,false,High,System,Under Review,2024-10-06,Generated comment for transaction 141
+142,142,1024.51,1011.88,2024-12-10,22:52:51,false,High,AI Model,Approved,,
+143,143,1031.78,1021.70,2024-11-16,11:46:23,true,High,System,Flagged,2024-10-04,Generated comment for transaction 143
+144,144,1023.12,1010.63,2024-12-08,22:50:00,true,Enhanced,AI Model,Approved,,
+145,145,1030.39,1017.17,2024-12-14,11:44:32,false,Enhanced,System,Flagged,2024-10-02,Generated comment for transaction 145
+146,146,1021.73,1009.38,2024-12-26,22:48:09,false,High,AI Model,Approved,,
+147,147,1029.00,1015.92,2024-12-12,11:34:41,false,High,System,Flagged,2024-11-28,Generated comment for transaction 147
+148,148,1020.34,1008.13,2024-12-24,22:46:11,false,High,AI Model,Approved,,
+149,149,1027.61,1014.67,2024-12-10,19:31:43,false,Enhanced,System,Flagged,2024-11-25,Generated comment for transaction 149
+150,150,1018.95,1006.88,2024-12-22,22:36:20,false,High,AI Model,Under Review,2024-11-10,Generated comment for transaction 150
+151,151,1010.29,999.08,2024-11-06,02:48:58,false,High,System,Under Review,2024-11-22,Generated comment for transaction 151
+152,152,1001.63,991.29,2024-11-19,05:52:35,true,High,System,Flagged,2024-10-06,Generated comment for transaction 152
+153,153,1025.73,1012.98,2024-12-03,16:56:13,true,High,AI Model,Approved,,
+154,154,1000.23,990.03,2024-12-16,05:50:44,false,Enhanced,System,Under Review,2024-10-04,Generated comment for transaction 154
+155,155,1024.34,1011.73,2024-12-01,16:54:22,false,High,AI Model,Approved,,
+156,156,1031.61,1021.55,2024-12-14,05:40:54,false,High,System,Flagged,2024-10-02,Generated comment for transaction 156
+157,157,1022.95,1010.48,2024-12-27,16:52:31,false,Enhanced,AI Model,Approved,,
+158,158,1030.22,1017.02,2024-12-11,19:56:09,false,High,System,Under Review,2024-11-27,Generated comment for transaction 158
+159,159,1005.63,994.89,2024-11-23,23:01:46,false,High,System,Flagged,2024-10-11,Generated comment for transaction 159
+160,160,1029.73,1016.58,2024-11-15,02:05:24,false,Enhanced,AI Model,Flagged,2024-10-23,Generated comment for transaction 160
+161,161,1021.07,1008.79,2024-12-28,13:09:01,true,High,System,Approved,,
+162,162,1028.34,1015.33,2024-12-05,02:03:33,true,High,AI Model,Under Review,2024-10-21,Generated comment for transaction 162
+163,163,1019.68,1007.53,2024-12-18,13:07:03,false,High,System,Approved,,
+164,164,1026.95,1014.08,2024-12-03,10:01:35,false,High,AI Model,Flagged,2024-11-19,Generated comment for transaction 164
+165,165,1018.29,1006.28,2024-12-15,13:05:12,false,Enhanced,System,Approved,,
+166,166,1025.56,1012.83,2024-12-01,10:51:44,false,High,AI Model,Approved,,
+167,167,1000.06,989.88,2024-12-15,23:44:16,false,High,System,Under Review,2024-11-02,Generated comment for transaction 167
+168,168,1024.17,1011.58,2024-12-27,10:49:53,false,High,AI Model,Approved,,
+169,169,1031.44,1021.40,2024-12-05,23:42:25,false,High,System,Flagged,2024-11-20,Generated comment for transaction 169
+170,170,1022.77,1010.32,2024-12-25,10:47:03,false,Enhanced,AI Model,Flagged,2024-11-05,Generated comment for transaction 170
+171,171,1014.11,1002.52,2024-12-09,14:51:40,false,High,System,Under Review,2024-11-25,Generated comment for transaction 171
+172,172,1005.45,994.73,2024-11-21,17:55:18,false,High,System,Flagged,2024-10-09,Generated comment for transaction 172
+173,173,1029.56,1016.43,2024-12-06,20:07:55,false,Enhanced,AI Model,Under Review,2024-10-21,Generated comment for transaction 173
+174,174,1020.90,1008.63,2024-12-18,07:12:33,false,High,System,Approved,,
+175,175,1028.17,1015.18,2024-12-04,04:57:04,false,High,AI Model,Flagged,2024-11-19,Generated comment for transaction 175
+176,176,1019.51,1007.38,2024-12-16,07:09:42,false,Enhanced,System,Flagged,2024-11-03,Generated comment for transaction 176
+177,177,1010.85,999.59,2024-11-28,10:14:20,false,Enhanced,AI Model,Flagged,2024-11-16,Generated comment for transaction 177
+178,178,1002.19,991.79,2024-11-12,14:18:57,false,High,AI Model,Under Review,2024-10-28,Generated comment for transaction 178
+179,179,1026.29,1013.48,2024-12-25,01:22:27,true,High,System,Approved,,
+180,180,1000.79,990.53,2024-12-10,14:16:58,true,High,AI Model,Flagged,2024-10-26,Generated comment for transaction 180
+181,181,1024.90,1012.23,2024-12-23,01:20:36,false,Enhanced,System,Approved,,
+182,182,1032.17,1022.05,2024-12-08,14:06:08,false,High,AI Model,Under Review,2024-10-24,Generated comment for transaction 182
+183,183,1023.51,1010.98,2024-12-20,01:18:45,false,High,System,Approved,,
+184,184,1030.78,1017.52,2024-12-06,14:04:17,false,High,AI Model,Flagged,2024-11-22,Generated comment for transaction 184
+185,185,1022.12,1009.73,2024-12-18,01:08:55,false,Enhanced,System,Approved,,
+186,186,1029.39,1016.27,2024-12-04,14:02:26,false,Enhanced,AI Model,Flagged,2024-11-12,Generated comment for transaction 186
+187,187,1020.73,1008.48,2024-12-16,01:06:04,false,High,System,Under Review,2024-11-04,Generated comment for transaction 187
+188,188,1012.06,1000.68,2024-11-28,05:10:41,false,High,AI Model,Flagged,2024-11-16,Generated comment for transaction 188
+189,189,1003.40,992.88,2024-11-13,08:22:19,true,High,AI Model,Under Review,2024-10-28,Generated comment for transaction 189
+190,190,1027.51,1014.58,2024-12-25,19:27:57,false,High,System,Under Review,2024-11-13,Generated comment for transaction 190
+191,191,1018.85,1006.79,2024-12-09,22:31:34,false,High,AI Model,Approved,,
+192,192,1026.12,1013.33,2024-12-23,19:24:06,false,Enhanced,System,Approved,,
+193,193,1000.62,990.38,2024-12-09,08:10:38,false,High,AI Model,Flagged,2024-11-24,Generated comment for transaction 193
+194,194,1024.73,1012.08,2024-12-21,19:14:15,false,High,System,Approved,,
+195,195,1032.00,1021.90,2024-12-06,08:08:39,false,Enhanced,AI Model,Flagged,2024-11-14,Generated comment for transaction 195
+196,196,1023.34,1010.83,2024-12-19,19:12:16,false,High,System,Flagged,2024-11-06,Generated comment for transaction 196
+197,197,1014.67,1003.03,2024-12-03,23:17:54,false,Enhanced,AI Model,Flagged,2024-11-19,Generated comment for transaction 197
+198,198,1006.01,995.23,2024-11-15,02:21:32,true,High,AI Model,Under Review,2024-10-03,Generated comment for transaction 198
+199,199,1030.12,1016.93,2024-12-27,05:33:09,false,High,System,Under Review,2024-10-15,Generated comment for transaction 199
+200,200,1021.46,1009.14,2024-12-12,16:37:47,false,Enhanced,AI Model,Approved,,
+201,201,1028.73,1015.68,2024-12-25,05:23:18,false,Enhanced,System,Flagged,2024-11-13,Generated comment for transaction 201
+202,202,1020.07,1007.89,2024-12-10,16:35:56,false,Enhanced,AI Model,Approved,,
+203,203,1027.34,1014.43,2024-12-23,13:21:28,false,High,System,Under Review,2024-11-11,Generated comment for transaction 203
+204,204,1018.68,1006.64,2024-12-08,16:25:05,false,High,AI Model,Flagged,2024-11-23,Generated comment for transaction 204
+205,205,1010.02,998.84,2024-11-20,20:37:43,false,Enhanced,System,Under Review,2024-11-07,Generated comment for transaction 205
+206,206,1001.36,991.05,2024-11-04,23:42:20,true,High,System,Under Review,2024-10-20,Generated comment for transaction 206
+207,207,1025.46,1012.74,2024-12-16,10:46:58,true,High,AI Model,Approved,,
+208,208,1032.73,1022.56,2024-12-02,23:40:30,false,Enhanced,System,Flagged,2024-10-18,Generated comment for transaction 208
+209,209,1024.07,1011.49,2024-12-14,10:44:07,false,Enhanced,AI Model,Approved,,
+210,210,1031.34,1021.31,2024-12-28,23:29:31,false,High,System,Under Review,2024-11-15,Generated comment for transaction 210
+211,211,1022.68,1010.23,2024-12-12,10:34:09,false,High,AI Model,Approved,,
+212,212,1029.95,1016.78,2024-12-26,23:27:40,false,High,System,Flagged,2024-11-13,Generated comment for transaction 212
+213,213,1021.29,1008.98,2024-12-10,10:32:18,false,Enhanced,AI Model,Flagged,2024-11-26,Generated comment for transaction 213
+214,214,1012.63,1001.19,2024-12-22,14:36:55,false,High,System,Under Review,2024-11-10,Generated comment for transaction 214
+215,215,1003.97,993.40,2024-11-06,17:48:33,true,High,System,Flagged,2024-10-22,Generated comment for transaction 215
+216,216,1028.07,1015.09,2024-11-25,10:03:16,true,High,AI Model,Approved,,
+217,217,1019.41,1007.29,2024-12-03,07:57:48,false,High,System,Approved,,
+218,218,1026.68,1013.83,2024-12-17,04:50:20,false,Enhanced,AI Model,Flagged,2024-11-04,Generated comment for transaction 218
+219,219,1018.02,1006.04,2024-12-01,07:55:57,false,High,System,Approved,,
+220,220,1025.29,1012.58,2024-12-15,04:40:29,false,High,AI Model,Approved,,
+221,221,1032.56,1022.40,2024-12-28,17:34:01,false,High,System,Flagged,2024-11-08,Generated comment for transaction 221
+222,222,1023.90,1011.33,2024-12-12,04:38:38,false,Enhanced,AI Model,Approved,,
+223,223,1031.17,1021.15,2024-12-18,17:32:10,false,Enhanced,System,Flagged,2024-11-06,Generated comment for transaction 223
+224,224,1022.50,1010.07,2024-12-10,04:36:48,false,High,AI Model,Under Review,2024-11-18,Generated comment for transaction 224
+225,225,1013.84,1002.28,2024-12-23,08:40:25,false,High,System,Flagged,2024-11-10,Generated comment for transaction 225
+226,226,1005.18,994.48,2024-11-07,11:44:55,false,High,System,Under Review,2024-10-22,Generated comment for transaction 226
+227,227,1029.29,1016.18,2024-12-19,14:49:32,false,High,AI Model,Flagged,2024-11-07,Generated comment for transaction 227
+228,228,1020.63,1008.39,2024-12-03,01:01:10,false,High,System,Approved,,
+229,229,1027.90,1014.93,2024-12-17,22:47:42,false,Enhanced,AI Model,Flagged,2024-11-05,Generated comment for transaction 229
+230,230,1019.24,1007.14,2024-12-01,01:51:19,false,High,System,Under Review,2024-11-17,Generated comment for transaction 230
+231,231,1010.58,999.35,2024-11-14,05:03:57,false,High,AI Model,Flagged,2024-11-01,Generated comment for transaction 231
+232,232,1001.92,991.55,2024-11-26,08:07:34,false,Enhanced,AI Model,Flagged,2024-10-13,Generated comment for transaction 232
+233,233,1026.02,1013.24,2024-12-10,19:12:12,true,High,System,Approved,,
+234,234,1000.52,990.29,2024-12-24,08:05:44,true,High,AI Model,Flagged,2024-10-11,Generated comment for transaction 234
+235,235,1024.63,1011.99,2024-12-08,19:10:21,false,High,System,Approved,,
+236,236,1031.90,1021.81,2024-12-22,08:55:53,false,High,AI Model,Flagged,2024-10-09,Generated comment for transaction 236
+237,237,1023.24,1010.74,2024-12-06,19:07:30,false,Enhanced,System,Approved,,
+238,238,1030.51,1017.28,2024-12-20,08:53:02,false,Enhanced,AI Model,Under Review,2024-11-07,Generated comment for transaction 238
+239,239,1021.85,1009.49,2024-12-04,19:57:40,false,High,System,Approved,,
+240,240,1029.12,1016.03,2024-12-17,08:51:12,false,High,AI Model,Under Review,2024-11-25,Generated comment for transaction 240
+241,241,1020.46,1008.24,2024-12-02,19:55:41,false,High,System,Flagged,2024-11-17,Generated comment for transaction 241
+242,242,1011.80,1000.44,2024-11-14,23:00:19,false,High,AI Model,Under Review,2024-11-02,Generated comment for transaction 242
+243,243,1003.13,992.64,2024-11-26,02:04:56,true,High,AI Model,Flagged,2024-10-14,Generated comment for transaction 243
+244,244,1027.24,1014.34,2024-12-10,13:16:34,false,High,System,Flagged,2024-11-26,Generated comment for transaction 244
+245,245,1018.58,1006.54,2024-12-23,16:20:11,false,Enhanced,AI Model,Approved,,
+246,246,1025.85,1013.09,2024-12-08,13:06:43,false,High,System,Approved,,
+247,247,1000.35,990.14,2024-12-22,02:00:15,false,High,AI Model,Under Review,2024-11-10,Generated comment for transaction 247
+248,248,1024.46,1011.84,2024-12-06,13:04:52,false,High,System,Approved,,
+249,249,1031.73,1021.66,2024-12-12,02:57:24,false,High,AI Model,Flagged,2024-11-28,Generated comment for transaction 249
+250,250,1023.07,1010.59,2024-12-04,13:02:02,false,Enhanced,System,Flagged,2024-11-12,Generated comment for transaction 250

@@ -1,0 +1,11 @@
+location_id,transaction_id,country,city,state,zipcode
+1,1,USA,New York,NY,10001
+2,2,USA,Los Angeles,CA,90001
+3,3,USA,Chicago,IL,60601
+4,4,USA,Houston,TX,77001
+5,5,USA,Phoenix,AZ,85001
+6,6,USA,Philadelphia,PA,19101
+7,7,USA,San Antonio,TX,78201
+8,8,USA,San Diego,CA,92101
+9,9,USA,Dallas,TX,75201
+10,10,USA,San Francisco,CA,94101

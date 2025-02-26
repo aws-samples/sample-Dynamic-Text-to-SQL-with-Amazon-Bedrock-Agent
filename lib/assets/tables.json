@@ -1,0 +1,667 @@
+[
+    {
+      "name": "customers",
+      "columns": [
+        {
+          "name": "customer_id",
+          "type": "int",
+          "comment": "A unique identifier for each customer. Serves as the primary key for this table."
+        },
+        {
+          "name": "first_name",
+          "type": "string",
+          "comment": "The first name of the customer."
+        },
+        {
+          "name": "last_name",
+          "type": "string",
+          "comment": "The last name of the customer."
+        },
+        {
+          "name": "email",
+          "type": "string",
+          "comment": "The email address of the customer."
+        },
+        {
+          "name": "phone",
+          "type": "string",
+          "comment": "The phone number of the customer."
+        },
+        {
+          "name": "date_of_birth",
+          "type": "string",
+          "comment": "The date of birth of the customer."
+        },
+        {
+          "name": "address",
+          "type": "string",
+          "comment": "The street address of the customer."
+        },
+        {
+          "name": "city",
+          "type": "string",
+          "comment": "The city where the customer resides."
+        },
+        {
+          "name": "state",
+          "type": "string",
+          "comment": "The state where the customer resides."
+        },
+        {
+          "name": "zipcode",
+          "type": "string",
+          "comment": "The postal code for the customer's address."
+        }
+      ]
+    },
+    {
+      "name": "accounts",
+      "columns": [
+        {
+          "name": "account_id",
+          "type": "int",
+          "comment": "A unique identifier for each bank account. Serves as the primary key for this table."
+        },
+        {
+          "name": "customer_id",
+          "type": "int",
+          "comment": "The customer who owns the bank account. Acts as a foreign key referencing the 'Customers' table."
+        },
+        {
+          "name": "account_type",
+          "type": "string",
+          "comment": "The type of the bank account (e.g., savings, checking)."
+        },
+        {
+          "name": "account_status",
+          "type": "string",
+          "comment": "The current status of the account (e.g., active, closed)."
+        },
+        {
+          "name": "created_date",
+          "type": "string",
+          "comment": "The date when the bank account was created."
+        },
+        {
+          "name": "closed_date",
+          "type": "string",
+          "comment": "The date when the bank account was closed, if applicable (nullable)."
+        },
+        {
+          "name": "current_balance",
+          "type": "float",
+          "comment": "The current balance in the bank account."
+        },
+        {
+          "name": "branch_id",
+          "type": "int",
+          "comment": "The bank branch where the account is managed. Acts as a foreign key referencing the 'Bank_Branches' table."
+        }
+      ]
+    },
+    {
+      "name": "transactions",
+      "columns": [
+        {
+          "name": "transaction_id",
+          "type": "int",
+          "comment": "A unique identifier for each transaction. Serves as the primary key for this table."
+        },
+        {
+          "name": "account_id",
+          "type": "int",
+          "comment": "The bank account associated with this transaction. Acts as a foreign key referencing the 'Accounts' table."
+        },
+        {
+          "name": "transaction_type",
+          "type": "string",
+          "comment": "The type of transaction (e.g., withdrawal, deposit)."
+        },
+        {
+          "name": "amount",
+          "type": "float",
+          "comment": "The amount of money involved in the transaction."
+        },
+        {
+          "name": "transaction_date",
+          "type": "string",
+          "comment": "The date when the transaction occurred."
+        },
+        {
+          "name": "merchant_id",
+          "type": "int",
+          "comment": "The merchant involved in the transaction. Acts as a foreign key referencing the 'Merchants' table."
+        },
+        {
+          "name": "city",
+          "type": "string",
+          "comment": "The city where the transaction took place."
+        },
+        {
+          "name": "state",
+          "type": "string",
+          "comment": "The state where the transaction took place."
+        },
+        {
+          "name": "currency",
+          "type": "string",
+          "comment": "The currency used in the transaction."
+        },
+        {
+          "name": "transaction_status",
+          "type": "string",
+          "comment": "The current status of the transaction (e.g., completed, pending)."
+        },
+        {
+          "name": "fraud_flag",
+          "type": "boolean",
+          "comment": "A flag indicating if the transaction is suspected to be fraudulent."
+        },
+        {
+          "name": "flagged_by",
+          "type": "string",
+          "comment": "The entity that flagged the transaction as potentially fraudulent."
+        },
+        {
+          "name": "fraud_reason",
+          "type": "string",
+          "comment": "The reason for flagging the transaction as potentially fraudulent."
+        }
+      ]
+    },
+    {
+      "name": "merchants",
+      "columns": [
+        {
+          "name": "merchant_id",
+          "type": "int",
+          "comment": "A unique identifier for each merchant. Serves as the primary key for this table."
+        },
+        {
+          "name": "merchant_name",
+          "type": "string",
+          "comment": "The name of the merchant."
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "comment": "The category or type of goods or services the merchant provides."
+        },
+        {
+          "name": "address",
+          "type": "string",
+          "comment": "The street address of the merchant's location."
+        },
+        {
+          "name": "city",
+          "type": "string",
+          "comment": "The city where the merchant is located."
+        },
+        {
+          "name": "state",
+          "type": "string",
+          "comment": "The state where the merchant is located."
+        },
+        {
+          "name": "zipcode",
+          "type": "string",
+          "comment": "The postal code for the merchant's location."
+        },
+        {
+          "name": "country",
+          "type": "string",
+          "comment": "The country where the merchant is located."
+        }
+      ]
+    },
+    {
+      "name": "fraud_alerts",
+      "columns": [
+        {
+          "name": "alert_id",
+          "type": "int",
+          "comment": "A unique identifier for each fraud alert. Serves as the primary key for this table."
+        },
+        {
+          "name": "transaction_id",
+          "type": "int",
+          "comment": "The transaction associated with the fraud alert. Acts as a foreign key referencing the 'Transactions' table."
+        },
+        {
+          "name": "alert_type",
+          "type": "string",
+          "comment": "The type of fraud alert (e.g., unusual transaction, high transaction amount)."
+        },
+        {
+          "name": "generated_by",
+          "type": "string",
+          "comment": "The entity that generated the fraud alert."
+        },
+        {
+          "name": "alert_date",
+          "type": "string",
+          "comment": "The date when the fraud alert was generated."
+        },
+        {
+          "name": "alert_status",
+          "type": "string",
+          "comment": "The current status of the fraud alert (e.g., open, resolved)."
+        },
+        {
+          "name": "severity_level",
+          "type": "string",
+          "comment": "The severity level of the fraud alert (e.g., low, high)."
+        },
+        {
+          "name": "notes",
+          "type": "string",
+          "comment": "Additional notes or details about the fraud alert."
+        }
+      ]
+    },
+    {
+      "name": "rules_engine",
+      "columns": [
+        {
+          "name": "rule_id",
+          "type": "int",
+          "comment": "A unique identifier for each fraud detection rule. Serves as the primary key for this table."
+        },
+        {
+          "name": "rule_name",
+          "type": "string",
+          "comment": "The name of the fraud detection rule."
+        },
+        {
+          "name": "rule_description",
+          "type": "string",
+          "comment": "A detailed description of the fraud detection rule."
+        },
+        {
+          "name": "severity_level",
+          "type": "string",
+          "comment": "The severity level assigned to the fraud detection rule."
+        },
+        {
+          "name": "created_date",
+          "type": "string",
+          "comment": "The date when the fraud detection rule was created."
+        },
+        {
+          "name": "modified_date",
+          "type": "string",
+          "comment": "The date when the fraud detection rule was last modified."
+        },
+        {
+          "name": "is_active",
+          "type": "boolean",
+          "comment": "Indicates whether the fraud detection rule is currently active."
+        },
+        {
+          "name": "hit_count",
+          "type": "int",
+          "comment": "The number of times the rule has triggered on transactions."
+        },
+        {
+          "name": "false_positive_rate",
+          "type": "float",
+          "comment": "The rate of false positives for this rule."
+        },
+        {
+          "name": "last_reviewed",
+          "type": "string",
+          "comment": "The date when the rule was last reviewed."
+        }
+      ]
+    },
+    {
+      "name": "devices",
+      "columns": [
+        {
+          "name": "device_id",
+          "type": "int",
+          "comment": "A unique identifier for each device. Serves as the primary key for this table."
+        },
+        {
+          "name": "customer_id",
+          "type": "int",
+          "comment": "The customer who owns the device. Acts as a foreign key referencing the 'Customers' table."
+        },
+        {
+          "name": "device_type",
+          "type": "string",
+          "comment": "The type of device (e.g., smartphone, laptop)."
+        },
+        {
+          "name": "device_os",
+          "type": "string",
+          "comment": "The operating system of the device."
+        },
+        {
+          "name": "device_model",
+          "type": "string",
+          "comment": "The model of the device."
+        },
+        {
+          "name": "last_login_date",
+          "type": "string",
+          "comment": "The last login date of the device."
+        },
+        {
+          "name": "is_blacklisted",
+          "type": "boolean",
+          "comment": "A flag indicating if the device is blacklisted."
+        },
+        {
+          "name": "fraud_score",
+          "type": "float",
+          "comment": "The fraud score associated with the device."
+        }
+      ]
+    },
+    {
+      "name": "locations",
+      "columns": [
+        {
+          "name": "location_id",
+          "type": "int",
+          "comment": "A unique identifier for each location. Serves as the primary key for this table."
+        },
+        {
+          "name": "transaction_id",
+          "type": "int",
+          "comment": "The transaction associated with the location. Acts as a foreign key referencing the 'Transactions' table."
+        },
+        {
+          "name": "country",
+          "type": "string",
+          "comment": "The country where the transaction occurred."
+        },
+        {
+          "name": "city",
+          "type": "string",
+          "comment": "The city where the transaction occurred."
+        },
+        {
+          "name": "state",
+          "type": "string",
+          "comment": "The state where the transaction occurred."
+        },
+        {
+          "name": "zipcode",
+          "type": "string",
+          "comment": "The postal code for the transaction location."
+        }
+      ]
+    },
+    {
+      "name": "transaction_history",
+      "columns": [
+        {
+          "name": "history_id",
+          "type": "int",
+          "comment": "A unique identifier for each transaction history record. Serves as the primary key for this table."
+        },
+        {
+          "name": "transaction_id",
+          "type": "int",
+          "comment": "The transaction associated with the history. Acts as a foreign key referencing the 'Transactions' table."
+        },
+        {
+          "name": "previous_balance",
+          "type": "float",
+          "comment": "The balance before the transaction occurred."
+        },
+        {
+          "name": "new_balance",
+          "type": "float",
+          "comment": "The balance after the transaction occurred."
+        },
+        {
+          "name": "transaction_date",
+          "type": "string",
+          "comment": "The date when the transaction occurred."
+        },
+        {
+          "name": "transaction_time",
+          "type": "string",
+          "comment": "The time when the transaction occurred."
+        },
+        {
+          "name": "is_fraud",
+          "type": "boolean",
+          "comment": "A flag indicating if the transaction is suspected to be fraudulent."
+        },
+        {
+          "name": "fraud_check_level",
+          "type": "string",
+          "comment": "The level of fraud check conducted on the transaction."
+        },
+        {
+          "name": "processed_by",
+          "type": "string",
+          "comment": "The entity that processed the transaction."
+        },
+        {
+          "name": "review_status",
+          "type": "string",
+          "comment": "The status of the review process for the transaction."
+        },
+        {
+          "name": "review_date",
+          "type": "string",
+          "comment": "The date when the transaction was reviewed, if applicable (nullable)."
+        },
+        {
+          "name": "reviewer_comments",
+          "type": "string",
+          "comment": "Any comments provided during the review process, if applicable (nullable)."
+        }
+      ]
+    },
+    {
+      "name": "suspicious_patterns",
+      "columns": [
+        {
+          "name": "pattern_id",
+          "type": "int",
+          "comment": "A unique identifier for each suspicious pattern. Serves as the primary key for this table."
+        },
+        {
+          "name": "transaction_id",
+          "type": "int",
+          "comment": "The transaction associated with the suspicious pattern. Acts as a foreign key referencing the 'Transactions' table."
+        },
+        {
+          "name": "pattern_type",
+          "type": "string",
+          "comment": "The type of suspicious pattern detected."
+        },
+        {
+          "name": "pattern_description",
+          "type": "string",
+          "comment": "A detailed description of the suspicious pattern."
+        },
+        {
+          "name": "severity_level",
+          "type": "string",
+          "comment": "The severity level of the suspicious pattern."
+        },
+        {
+          "name": "date_detected",
+          "type": "string",
+          "comment": "The date when the suspicious pattern was detected."
+        },
+        {
+          "name": "is_resolved",
+          "type": "boolean",
+          "comment": "A flag indicating if the suspicious pattern is resolved."
+        },
+        {
+          "name": "resolved_date",
+          "type": "string",
+          "comment": "The date when the suspicious pattern was resolved, if applicable (nullable)."
+        },
+        {
+          "name": "resolved_by",
+          "type": "string",
+          "comment": "The entity that resolved the suspicious pattern, if applicable."
+        },
+        {
+          "name": "comments",
+          "type": "string",
+          "comment": "Any comments provided regarding the suspicious pattern, if applicable (nullable)."
+        }
+      ]
+    },
+    {
+      "name": "bank_branches",
+      "columns": [
+        {
+          "name": "branch_id",
+          "type": "int",
+          "comment": "A unique identifier for each bank branch. Serves as the primary key for this table."
+        },
+        {
+          "name": "branch_name",
+          "type": "string",
+          "comment": "The name of the bank branch."
+        },
+        {
+          "name": "address",
+          "type": "string",
+          "comment": "The street address of the bank branch."
+        },
+        {
+          "name": "city",
+          "type": "string",
+          "comment": "The city where the bank branch is located."
+        },
+        {
+          "name": "state",
+          "type": "string",
+          "comment": "The state where the bank branch is located."
+        }
+      ]
+    },
+    {
+      "name": "cards",
+      "columns": [
+        {
+          "name": "card_id",
+          "type": "int",
+          "comment": "A unique identifier for each card. Serves as the primary key for this table."
+        },
+        {
+          "name": "customer_id",
+          "type": "int",
+          "comment": "The customer who owns the card. Acts as a foreign key referencing the 'Customers' table."
+        },
+        {
+          "name": "card_number",
+          "type": "string",
+          "comment": "The masked or tokenized card number for security."
+        },
+        {
+          "name": "card_type",
+          "type": "string",
+          "comment": "The type of card (e.g., debit, credit)."
+        },
+        {
+          "name": "expiration_date",
+          "type": "string",
+          "comment": "The expiration date of the card."
+        },
+        {
+          "name": "cvv",
+          "type": "string",
+          "comment": "The CVV code for the card."
+        },
+        {
+          "name": "issue_date",
+          "type": "string",
+          "comment": "The issue date of the card."
+        },
+        {
+          "name": "status",
+          "type": "string",
+          "comment": "The status of the card (e.g., active, blocked)."
+        },
+        {
+          "name": "last_used_date",
+          "type": "string",
+          "comment": "The last date the card was used."
+        }
+      ]
+    },
+    {
+      "name": "card_transactions",
+      "columns": [
+        {
+          "name": "card_transaction_id",
+          "type": "int",
+          "comment": "A unique identifier for each card transaction. Serves as the primary key for this table."
+        },
+        {
+          "name": "card_id",
+          "type": "int",
+          "comment": "The card associated with the transaction. Acts as a foreign key referencing the 'Cards' table."
+        },
+        {
+          "name": "transaction_id",
+          "type": "int",
+          "comment": "The transaction associated with the card transaction. Acts as a foreign key referencing the 'Transactions' table."
+        },
+        {
+          "name": "transaction_type",
+          "type": "string",
+          "comment": "The type of card transaction (e.g., purchase, cash withdrawal)."
+        },
+        {
+          "name": "amount",
+          "type": "float",
+          "comment": "The amount of money involved in the card transaction."
+        },
+        {
+          "name": "transaction_date",
+          "type": "string",
+          "comment": "The date when the card transaction occurred."
+        },
+        {
+          "name": "merchant_id",
+          "type": "int",
+          "comment": "The merchant involved in the card transaction. Acts as a foreign key referencing the 'Merchants' table."
+        },
+        {
+          "name": "location",
+          "type": "string",
+          "comment": "The location where the card transaction occurred."
+        },
+        {
+          "name": "currency",
+          "type": "string",
+          "comment": "The currency used in the card transaction."
+        },
+        {
+          "name": "transaction_status",
+          "type": "string",
+          "comment": "The status of the card transaction (e.g., completed, pending)."
+        },
+        {
+          "name": "fraud_flag",
+          "type": "boolean",
+          "comment": "A flag indicating if the card transaction is suspected to be fraudulent."
+        },
+        {
+          "name": "flagged_by",
+          "type": "string",
+          "comment": "The entity that flagged the card transaction as potentially fraudulent."
+        },
+        {
+          "name": "fraud_reason",
+          "type": "string",
+          "comment": "The reason for flagging the card transaction as potentially fraudulent."
+        }
+      ]
+    }
+  ]

@@ -1,0 +1,11 @@
+account_id,customer_id,account_type,account_status,created_date,closed_date,current_balance,branch_id
+1,1,Checking,Active,2023-01-01,,5000.00,101
+2,2,Savings,Active,2023-02-15,,10000.00,102
+3,3,Checking,Inactive,2022-11-20,2023-10-01,0.00,103
+4,4,Checking,Active,2023-03-12,,2000.00,104
+5,5,Savings,Active,2023-05-25,,15000.00,105
+6,6,Checking,Active,2023-07-18,,2500.00,106
+7,7,Savings,Active,2023-09-01,,12000.00,107
+8,8,Checking,Closed,2023-06-01,2023-12-01,0.00,108
+9,9,Checking,Active,2023-08-22,,8000.00,109
+10,10,Savings,Active,2023-04-10,,5000.00,110

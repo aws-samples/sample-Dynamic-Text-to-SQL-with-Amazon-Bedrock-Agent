@@ -1,0 +1,11 @@
+rule_id,rule_name,rule_description,severity_level,created_date,modified_date,is_active,last_reviewed
+1,Large Transaction,Flags transactions over $10000,High,2024-10-01,2024-12-01,true,2024-12-15
+2,Rapid Succession,Multiple transactions within 5 minutes,Medium,2024-11-01,2024-12-01,true,2024-12-15
+3,Geographic Anomaly,Transactions from multiple countries,High,2024-12-01,2024-12-01,true,2024-12-15
+4,Off-hours Activity,Transactions between 1AM-4AM,Low,2024-10-01,2024-12-01,false,2024-12-15
+5,Velocity Check,Transaction frequency monitoring,Medium,2024-11-01,2024-12-01,true,2024-12-15
+6,Amount Pattern,Structured transactions,High,2024-12-01,2024-12-01,true,2024-12-15
+7,New Device,First-time device usage,Medium,2024-10-01,2024-12-01,true,2024-12-15
+8,Cross-border,International transactions,High,2024-11-01,2024-12-01,true,2024-12-15
+9,Authentication,3D Secure failures,Critical,2024-12-01,2024-12-01,true,2024-12-15
+10,Card Present,Unusual in-person usage,Medium,2024-10-01,2024-12-01,true,2024-12-15

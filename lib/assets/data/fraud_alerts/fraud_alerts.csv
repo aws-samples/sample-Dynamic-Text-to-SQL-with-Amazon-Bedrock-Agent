@@ -1,0 +1,91 @@
+alert_id,transaction_id,alert_type,generated_by,alert_date,alert_status,severity_level,notes
+11,187,Large Transaction,System,2024-10-28,Resolved,High,Generated alert for transaction 187
+12,162,Large Transaction,System,2024-11-21,Under Review,Medium,Generated alert for transaction 162
+13,144,Authentication,System,2024-11-19,Under Review,Low,Generated alert for transaction 144
+14,147,Cross-border,ML Model,2024-10-01,Under Review,High,Generated alert for transaction 147
+15,18,Cross-border,ML Model,2024-12-19,Open,Low,Generated alert for transaction 18
+16,81,Amount Pattern,ML Model,2024-10-25,Under Review,Low,Generated alert for transaction 81
+17,63,New Device,System,2024-11-16,Under Review,Low,Generated alert for transaction 63
+18,37,Amount Pattern,System,2024-12-20,Under Review,Low,Generated alert for transaction 37
+19,189,Large Transaction,System,2024-12-01,Under Review,Low,Generated alert for transaction 189
+20,138,Amount Pattern,System,2024-11-18,Open,Low,Generated alert for transaction 138
+21,206,Off-hours Activity,System,2024-12-01,Under Review,Medium,Generated alert for transaction 206
+22,116,Off-hours Activity,ML Model,2024-10-23,Open,High,Generated alert for transaction 116
+23,100,Card Present,ML Model,2024-12-01,Under Review,Medium,Generated alert for transaction 100
+24,159,Card Present,ML Model,2024-12-05,Under Review,Low,Generated alert for transaction 159
+25,103,New Device,System,2024-12-04,Resolved,Low,Generated alert for transaction 103
+26,72,Large Transaction,System,2024-12-16,Open,Low,Generated alert for transaction 72
+27,61,Authentication,ML Model,2024-12-01,Under Review,Low,Generated alert for transaction 61
+28,72,Rapid Succession,ML Model,2024-11-07,Resolved,High,Generated alert for transaction 72
+29,19,New Device,System,2024-11-26,Under Review,Low,Generated alert for transaction 19
+30,156,New Device,System,2024-10-16,Open,High,Generated alert for transaction 156
+31,60,Geographic Anomaly,System,2024-10-10,Open,Low,Generated alert for transaction 60
+32,119,Geographic Anomaly,ML Model,2024-12-09,Under Review,Low,Generated alert for transaction 119
+33,224,Large Transaction,System,2024-12-03,Open,Low,Generated alert for transaction 224
+34,24,Velocity Check,System,2024-11-03,Under Review,High,Generated alert for transaction 24
+35,61,Amount Pattern,System,2024-12-28,Under Review,Medium,Generated alert for transaction 61
+36,227,Geographic Anomaly,ML Model,2024-12-02,Under Review,Low,Generated alert for transaction 227
+37,156,New Device,System,2024-12-06,Under Review,Medium,Generated alert for transaction 156
+38,174,Velocity Check,System,2024-11-24,Under Review,High,Generated alert for transaction 174
+39,155,Authentication,System,2024-12-03,Open,Medium,Generated alert for transaction 155
+40,213,Cross-border,System,2024-10-14,Resolved,High,Generated alert for transaction 213
+41,215,Large Transaction,System,2024-11-02,Resolved,Low,Generated alert for transaction 215
+42,10,Rapid Succession,System,2024-10-03,Open,Low,Generated alert for transaction 10
+43,6,Rapid Succession,ML Model,2024-11-17,Open,High,Generated alert for transaction 6
+44,158,Large Transaction,System,2024-10-18,Under Review,High,Generated alert for transaction 158
+45,41,Off-hours Activity,ML Model,2024-10-24,Open,Low,Generated alert for transaction 41
+46,177,Off-hours Activity,System,2024-11-13,Under Review,Low,Generated alert for transaction 177
+47,62,Rapid Succession,ML Model,2024-12-07,Under Review,Medium,Generated alert for transaction 62
+48,122,Amount Pattern,System,2024-12-21,Under Review,Medium,Generated alert for transaction 122
+49,79,Authentication,System,2024-11-04,Under Review,Low,Generated alert for transaction 79
+50,244,Authentication,System,2024-12-04,Under Review,Medium,Generated alert for transaction 244
+51,48,Rapid Succession,ML Model,2024-10-22,Under Review,High,Generated alert for transaction 48
+52,95,Card Present,ML Model,2024-12-13,Under Review,Low,Generated alert for transaction 95
+53,16,Off-hours Activity,ML Model,2024-12-18,Open,Low,Generated alert for transaction 16
+54,134,New Device,System,2024-11-19,Resolved,Low,Generated alert for transaction 134
+55,50,Amount Pattern,System,2024-10-26,Under Review,Low,Generated alert for transaction 50
+56,52,Rapid Succession,ML Model,2024-10-18,Open,High,Generated alert for transaction 52
+57,90,Rapid Succession,ML Model,2024-12-13,Resolved,Low,Generated alert for transaction 90
+58,216,Rapid Succession,ML Model,2024-11-05,Under Review,Low,Generated alert for transaction 216
+59,17,New Device,System,2024-12-08,Under Review,Low,Generated alert for transaction 17
+60,166,Off-hours Activity,ML Model,2024-11-05,Open,High,Generated alert for transaction 166
+61,96,Cross-border,ML Model,2024-11-19,Under Review,Low,Generated alert for transaction 96
+62,14,Amount Pattern,ML Model,2024-10-25,Resolved,Low,Generated alert for transaction 14
+63,225,New Device,System,2024-12-12,Resolved,Low,Generated alert for transaction 225
+64,18,Rapid Succession,ML Model,2024-11-28,Under Review,Medium,Generated alert for transaction 18
+65,18,Off-hours Activity,ML Model,2024-12-07,Under Review,Low,Generated alert for transaction 18
+66,164,Card Present,ML Model,2024-11-11,Under Review,High,Generated alert for transaction 164
+67,143,Off-hours Activity,ML Model,2024-10-18,Open,Medium,Generated alert for transaction 143
+68,121,Off-hours Activity,ML Model,2024-10-02,Open,High,Generated alert for transaction 121
+69,113,New Device,System,2024-10-23,Open,High,Generated alert for transaction 113
+70,129,Cross-border,System,2024-10-28,Under Review,High,Generated alert for transaction 129
+71,55,Amount Pattern,ML Model,2024-10-17,Resolved,High,Generated alert for transaction 55
+72,65,New Device,System,2024-12-09,Open,Medium,Generated alert for transaction 65
+73,240,Off-hours Activity,ML Model,2024-10-05,Open,Low,Generated alert for transaction 240
+74,40,Velocity Check,System,2024-10-14,Resolved,High,Generated alert for transaction 40
+75,65,Off-hours Activity,ML Model,2024-10-05,Under Review,High,Generated alert for transaction 65
+76,137,Velocity Check,System,2024-12-04,Under Review,Low,Generated alert for transaction 137
+77,102,Velocity Check,System,2024-11-12,Resolved,High,Generated alert for transaction 102
+78,215,Large Transaction,System,2024-12-06,Under Review,Low,Generated alert for transaction 215
+79,53,Velocity Check,ML Model,2024-10-08,Under Review,High,Generated alert for transaction 53
+80,90,Rapid Succession,System,2024-12-01,Resolved,Low,Generated alert for transaction 90
+81,242,Card Present,ML Model,2024-11-11,Under Review,Low,Generated alert for transaction 242
+82,181,Cross-border,System,2024-11-21,Open,High,Generated alert for transaction 181
+83,114,Geographic Anomaly,System,2024-12-07,Resolved,Low,Generated alert for transaction 114
+84,41,New Device,System,2024-10-16,Open,Medium,Generated alert for transaction 41
+85,140,Authentication,System,2024-10-13,Open,High,Generated alert for transaction 140
+86,174,Amount Pattern,System,2024-10-02,Open,Low,Generated alert for transaction 174
+87,146,Cross-border,ML Model,2024-11-02,Under Review,Low,Generated alert for transaction 146
+88,90,Large Transaction,System,2024-11-21,Resolved,Low,Generated alert for transaction 90
+89,246,Rapid Succession,ML Model,2024-12-14,Open,Low,Generated alert for transaction 246
+90,21,Rapid Succession,ML Model,2024-11-04,Resolved,Low,Generated alert for transaction 21
+91,74,Amount Pattern,ML Model,2024-12-26,Under Review,Low,Generated alert for transaction 74
+92,213,Rapid Succession,System,2024-12-22,Under Review,Medium,Generated alert for transaction 213
+93,61,Geographic Anomaly,System,2024-12-20,Resolved,High,Generated alert for transaction 61
+94,106,Cross-border,ML Model,2024-10-20,Open,High,Generated alert for transaction 106
+95,93,Cross-border,ML Model,2024-11-07,Under Review,High,Generated alert for transaction 93
+96,78,Large Transaction,ML Model,2024-11-07,Under Review,Low,Generated alert for transaction 78
+97,94,Off-hours Activity,System,2024-12-02,Under Review,Medium,Generated alert for transaction 94
+98,242,Card Present,ML Model,2024-10-22,Open,Low,Generated alert for transaction 242
+99,20,Off-hours Activity,ML Model,2024-12-24,Under Review,Low,Generated alert for transaction 20
+100,186,Large Transaction,System,2024-11-22,Under Review,Low,Generated alert for transaction 186
