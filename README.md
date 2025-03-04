@@ -64,23 +64,21 @@ The system provides a natural language interface to your database through Amazon
 
 ### Agentic Text2SQL Flow
 
-![flow](assets/text2sql_flow.png)
+![architecture](assets/architecture.png)
 
-1. User input is received by the Bedrock Agent.
-2. The agent processes the input and determines the appropriate action (list tables, describe schema, or execute query).
-3. The agent invokes the corresponding Lambda function (Athena Schema Reader or Athena Query).
-4. The Lambda function interacts with Athena to execute the requested operation.
-5. Athena queries the data stored in the S3 data bucket.
-6. Query results are stored in the S3 output bucket.
-7. The Lambda function retrieves and processes the results.
-8. If an error occurs during query execution:
-   a. The Lambda function captures the error message.
-   b. The error message is returned to the Bedrock Agent.
-   c. The agent analyzes the error message to identify the issue.
-   d. The agent suggests modifications to the query or provides guidance to resolve the error.
-   e. If appropriate, the agent automatically retries the modified query by repeating steps 3-7.
-9. Processed results (or error analysis) are returned to the Bedrock Agent.
-10. The agent formats and presents the results or error resolution to the user.
+1. User asks questions to the Amazon Bedrock Agent.
+2. To serve the user's questions, Agent determines the appropriate action to invoke:
+    1. to execute the generated query with confidence, Agent will invoke athena-query tool
+    2. to confirm the database schema first, it will invoke athena-schema-reader tool
+        1. to understand what tables it has access to: /list_tables,
+        2. to find out specific schema of a certain table: /describe_table
+3. The Lambda function sends the query to Athena to execute
+4. Athena queries the data from the S3 data bucket, and stores the query results in the S3 output bucket.
+5. The Lambda function retrieves and processes the results. If an error occurs:
+    - The Lambda function captures and formats the error message for Agent to understand
+    - The error message is returned to the Amazon Bedrock Agent.
+  The agent analyzes the error message and tries to resolve. To retry with the modified query, Agent may repeat 2-5.
+6. The agent formats and presents the final responses to the user.
 
 ## Getting Started
 
@@ -143,8 +141,6 @@ The project is deployed using AWS CDK. The `bin/agentic-text2sql.ts` file is the
 
 1. AthenaStack: Sets up the Athena database, S3 buckets, and Glue tables.
 2. AgentStack: Creates the Bedrock Agent, Lambda functions, and associated resources.
-
-![architecture](assets/architecture.png)
 
 ### Deployment
 
