@@ -74,11 +74,11 @@ The system provides a natural language interface to your database through Amazon
 6. Query results are stored in the S3 output bucket.
 7. The Lambda function retrieves and processes the results.
 8. If an error occurs during query execution:
-   a. The Lambda function captures the error message.
-   b. The error message is returned to the Bedrock Agent.
-   c. The agent analyzes the error message to identify the issue.
-   d. The agent suggests modifications to the query or provides guidance to resolve the error.
-   e. If appropriate, the agent automatically retries the modified query by repeating steps 3-7.
+  1. The Lambda function captures the error message.
+  2. The error message is returned to the Bedrock Agent.
+  3. The agent analyzes the error message to identify the issue.
+  4. The agent suggests modifications to the query or provides guidance to resolve the error.
+  5. If appropriate, the agent automatically retries the modified query by repeating steps 3-7.
 9. Processed results (or error analysis) are returned to the Bedrock Agent.
 10. The agent formats and presents the results or error resolution to the user.
 
@@ -151,8 +151,8 @@ The project is deployed using AWS CDK. The `bin/agentic-text2sql.ts` file is the
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
-   cd <repository-name>
+   git clone https://github.com/aws-samples/sample-Dynamic-Text-to-SQL-with-Amazon-Bedrock-Agent.git
+   cd sample-Dynamic-Text-to-SQL-with-Amazon-Bedrock-Agent
    ```
 
 2. Install dependencies:
