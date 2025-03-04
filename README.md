@@ -80,6 +80,7 @@ The system provides a natural language interface to your database through Amazon
   The agent analyzes the error message and tries to resolve. To retry with the modified query, Agent may repeat 2-5.
 6. The agent formats and presents the final responses to the user.
 
+
 ## Getting Started
 
 ### Prerequisites
@@ -147,8 +148,8 @@ The project is deployed using AWS CDK. The `bin/agentic-text2sql.ts` file is the
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
-   cd <repository-name>
+   git clone https://github.com/aws-samples/sample-Dynamic-Text-to-SQL-with-Amazon-Bedrock-Agent.git
+   cd sample-Dynamic-Text-to-SQL-with-Amazon-Bedrock-Agent
    ```
 
 2. Install dependencies:
