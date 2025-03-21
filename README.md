@@ -80,7 +80,6 @@ The system provides a natural language interface to your database through Amazon
   The agent analyzes the error message and tries to resolve. To retry with the modified query, Agent may repeat 2-5.
 6. The agent formats and presents the final responses to the user.
 
-
 ## Getting Started
 
 ### Prerequisites
@@ -95,7 +94,7 @@ The system provides a natural language interface to your database through Amazon
 
 This project utilizes [AWS Generative AI CDK Constructs](https://github.com/awslabs/generative-ai-cdk-constructs), a collection of AWS CDK constructs for building generative AI applications. These constructs provide high-level components that make it easier to integrate AWS AI/ML services into your infrastructure.
 
-## Regional Configuration
+### Regional Configuration
 
 The project is configured to use Amazon Bedrock in the US region by default. If you need to deploy in a different region, modify the `geoRegion` parameter in the cross-region inference profile configuration:
 
@@ -215,7 +214,7 @@ Example interactions:
 
 - ![code_interpreter](assets/code_interpreter.png)
 
-### Troubleshooting
+## Troubleshooting
 
 - If you encounter unexpected responses in the test window, clear the session history:
   - Click the broom icon (🧹) in the top right corner of the test window
@@ -223,6 +222,18 @@ Example interactions:
 - Check agent's rationale to understand agent's approach
 - If queries consistently fail, check the CloudWatch logs for the relevant Lambda functions (Athena Query and Athena Schema Reader).
 - Enable [Bedrock model invocation logging](https://docs.aws.amazon.com/bedrock/latest/userguide/model-invocation-logging.html) to troubleshoot
+
+## Customization Considerations
+
+When adapting this solution to your environment:
+
+- **Agent Instructions**: Update the agent instructions in `prompt/instruction.txt` to reflect your specific database environment and schema discovery methods.
+
+- **Database Metadata Sources**: This sample uses AWS Glue Data Catalog via Athena's `SHOW tables` and `DESCRIBE table` commands. If your metadata is stored elsewhere (PostgreSQL's information_schema, Oracle's data dictionary, etc.), you'll need to modify the schema discovery approach accordingly.
+
+- **Metadata Enrichment**: If your database doesn't provide sufficient context through column comments, consider implementing a supplementary metadata repository to provide the agent with richer information about your data model, business context, and table relationships.
+
+- **Tool Interaction Optimization**: Our sample implementation processes one table at a time, which is simple but may require multiple turns for complex queries. In production environments, consider implementing bulk metadata retrieval or caching strategies to reduce latency and provide more complete context to the agent.
 
 ## License
 
